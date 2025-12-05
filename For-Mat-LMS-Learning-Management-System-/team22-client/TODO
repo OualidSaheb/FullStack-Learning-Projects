@@ -1,0 +1,32 @@
+Alain do not touch please
+gerer date/prix avec locale
+traduction i8n si possible
+gerer locale a partir de fichier central
+offrir choix de locale au client/utilisateur/etc
+
+recuperer SAS TOKEN par backend
+
+TODO
+
+CALCULER DURATION AUTOMATIQUE!
+tester verifier si progress fonctionne
+enlever video preview ?
+
+TODO YAN
+Header + footer conditionel a user, guest, publisher, admin
+bouton "inscrire" dois etre la seulment si user dans store = guest
+merger header admin et header user ensemble et utiliser logique conditionel
+
+TODO CARLOS/OUAL
+meme chose que yan, implementer logique conditionel au lieu de faire 2 pages differentes (profil par exemple)
+essayer d'en faire le plus possible
+
+TODO ALAIN
+logique de bouton "user" avec gamification et blabla
+
+TODO
+
+BESOIN CLEARER FORM quand on as visionner un edit et apres quon veux ajouter un autre cours (ancien cours pas clear)
+besoin gather publisher du store et ajouter dans le "cours" quand creer
+
+Parler de distribuer le travail sur github, d'aider avec les merge, push, pull, etc, la philosophie en general de github selon ce que moi j'ai compris, essayer tant bien que mal de gerer les conflits, developper moi meme des bonnes habitudes pour garder mes branches a jour et ne pas creer de conflits plus hauts, le autobuild sur github pour avoir des bonnes pratiques, le autodeploy sur onrender pour avoir un idee de ce quon fais,

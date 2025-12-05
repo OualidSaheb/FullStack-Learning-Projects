@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;700&display=swap')
+
+*, *:before, *:after
+  box-sizing: border-box
+
+$font-family-sans-serif: 'Khand', sans-serif
+
+$primary: #DC7633
+$dark: #13245F
+$light: #E0E7EF
+$secondary: #B9D5E1
+$secondarydark: #196B8D
+$gray: #c6c6c6
+
+$bs-card-cap-color: black !important
+
+$body-bg: $light
+$body-color: $dark
+$headings-font-weight: 400
+$spacer: 1rem !default
+
+$list-group-color: $dark
+$list-group-bg: $light
+$list-group-active-bg: $secondary
+$list-group-active-color: $dark
+$card-border-color: $light
+
+$input-color: $dark
+$input-bg: transparent
+
+$label-bg-color: $primary
+$list-group-item-padding-y: $spacer * .2
+// $form-floating-input-padding-t: 0px
+// $form-floating-input-padding-b: 0px
+.rx-box
+  min-width: 10rem
+  height: 100%
+
+// Import Bootstrap’s main variables and mixins
+@import bootstrap/scss/functions
+@import bootstrap/scss/variables
+@import bootstrap/scss/mixins
+
+// Add custom border-color utilities
+@each $color, $value in ("secondarydark": $secondarydark)
+  .border-#{$color}
+    border-color: $value !important
+
+@import "../node_modules/bootstrap/scss/bootstrap"
+
+.custom-number-input
+  // Custom styles for the number input
+
+  // Hide the browser's default spin buttons
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+  // Firefox
+  &[type='number']
+    -moz-appearance: textfield
+
+// Input group text customization
+.input-group-text
+  border-left: 0
+
+// Input group button customization
+.input-group-append .btn
+  border-radius: 0 // Adjust as needed to match your design
+
+// Style to ensure 'pt' label and buttons are connected
+.input-group .input-group-text,
+.input-group .input-group-append .btn .custom-number-input
+  border-color: $input-border-color
+
+    /* For Chrome, Safari, and Opera */
+::-webkit-scrollbar
+  width: 7px
+  height: 7px
+::-webkit-scrollbar-track
+  background: $secondarydark
+  border-radius: 10px
+  border: 2.6px solid $secondarydark
+
+::-webkit-scrollbar-thumb
+  border-radius: 10px
+  border: 2.6px solid $secondarydark
+  background-color: $secondary
+
+/* For Firefox */
+*
+  scrollbar-width: thin
+  scrollbar-color: $secondarydark $secondary
+
+/* For IE and Edge */
+*
+  -ms-overflow-style: -ms-autohiding-scrollbar
+
+textarea
+  resize: none
+  width: 100%
+  border: none
+
+.form-floating
+  label
+    height: auto
+
+.pt-6
+  padding: 0.85rem
+
+.input-group
+  width: 60px

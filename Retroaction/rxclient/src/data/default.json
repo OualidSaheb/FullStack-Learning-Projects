@@ -1,0 +1,52 @@
+{
+  "defaultGrid": {
+    "_id": "uuid",
+    "title": "Nouvelle grille",
+    "sections": [],
+    "note": "",
+    "type": "grid"
+  },
+  "defaultSection": {
+    "_id": "uuid",
+    "title": "Nouvelle section",
+    "criteria": [],
+    "note": ""
+  },
+  "defaultCriterion": {
+    "_id": "uuid",
+    "title": "Nouveau critère de correction",
+    "note": "",
+    "levels": [
+      {
+        "_id": "uuid",
+        "title": "Balises de contenu parfaitement respectées. Aucune erreur de syntaxe. Aucune erreur de logique. Aucune erreur de programmation. Aucune erreur de conception. Aucune erreur de présentation. Aucune erreur de style.",
+        "value": 10
+      },
+      {
+        "_id": "uuid",
+        "title": "Une à trois erreurs parmi les suivantes : balises de contenu, syntaxe, logique, programmation, conception, présentation, style.",
+        "value": 7
+      },
+      {
+        "_id": "uuid",
+        "title": "Qutre à dix erreurs parmi les suivantes : balises de contenu, syntaxe, logique, programmation, conception, présentation, style.",
+        "value": 4
+      },
+      {
+        "_id": "uuid",
+        "title": "Plus de dix erreurs.",
+        "value": 0
+      }
+    ]
+  },
+  "defaultLevel": {
+    "_id": "uuid",
+    "title": "Nouveau Niveau",
+    "value": 0
+  },
+  "defaultLevel": {
+    "_id": "uuid",
+    "title": "Nouveau Niveau",
+    "value": 0
+  }
+}

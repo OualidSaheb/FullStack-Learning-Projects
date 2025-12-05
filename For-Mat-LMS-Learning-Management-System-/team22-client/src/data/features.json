@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "carbon:ibm-z-os-ai-control-interface",
+    "title": "Interface Intuitive",
+    "description": "Profitez d'une navigation sans effort grâce à une conception utilisateur simplifiée, facilitant ainsi l'accès rapide aux ressources et modules."
+  },
+  {
+    "icon": "fluent-mdl2:learning-tools",
+    "title": "Apprentissage Immersif",
+    "description": "Immergez-vous dans des sessions pratiques où la théorie rencontre l'action, propulsant ainsi votre apprentissage à un niveau supérieur."
+  },
+  {
+    "icon": "healthicons:i-training-class-outline",
+    "title": "Formations Flexibles",
+    "description": "Des sessions de formation live ou offline, adaptées à vos besoins et disponibilités."
+  },
+  {
+    "icon": "clarity:analytics-line",
+    "title": "Analytics Avancés",
+    "description": "Bénéficiez d'outils puissants pour suivre vos progrès en temps réel, aidant à personnaliser davantage votre parcours d'apprentissage."
+  },
+  {
+    "icon": "healthicons:i-exam-multiple-choice-outline",
+    "title": "Examens Simplifiés",
+    "description": "Une gestion d'examens facilitée, pour un suivi efficace et sans stress."
+  },
+  {
+    "icon": "arcticons:linkedin-learning",
+    "title": "Apprentissage Ludique",
+    "description": "Des éléments de gamification qui rendent l'apprentissage plus engageant et amusant."
+  }
+]

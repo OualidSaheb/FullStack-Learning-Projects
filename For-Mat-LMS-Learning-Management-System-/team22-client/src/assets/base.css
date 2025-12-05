@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;900&display=swap');
+
+:root {
+  --background: #f7f7f7;
+  --laccent: #714cd2;
+  --baccent: #eae2ff;
+  --maccent: #6f5581;
+  --daccent: #1f223b;
+  --secondary: #699668;
+  --textlight: #ffffff;
+  --textdark: #000000;
+
+  --fs-xl: 4rem;
+  --fs-600: 3.157rem;
+  --fs-400: 2.369rem;
+  --fs-200: 1.313rem;
+  --fs-100: 1rem;
+  --fs-sm: 0.75rem;
+}
+
+html {
+  font-size: 10px;
+  font-weight: 400;
+  overflow-y: scroll;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* X-Small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default screen*/
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 1355px;
+  }
+}

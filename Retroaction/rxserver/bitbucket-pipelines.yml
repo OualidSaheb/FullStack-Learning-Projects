@@ -1,0 +1,15 @@
+image: atlassian/default-image:latest
+
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: pull develop on merge
+          script:
+              - echo "Deploy step started"
+              - pipe: atlassian/ssh-run:0.7.0
+                variables:
+                  SSH_USER: 'root:tG8,pCtsH{@$KxuQ'
+                  SERVER: '149.248.57.176'
+                  COMMAND: 'sh /var/www/rxserver/script/pull.sh'
+              - echo "Deploy step finished"    

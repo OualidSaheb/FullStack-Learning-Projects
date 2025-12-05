@@ -1,0 +1,645 @@
+[
+  {
+    "cours": [
+      {
+        "id": 1,
+        "code": "C001",
+        "name": "Windows Presentation Foundation (WPF)",
+        "description": "Windows Presentation Foundation (WPF) (nom de code Avalon) est la spécification graphique de Microsoft .NET 3.0. Il intègre le langage descriptif XAML qui permet de l'utiliser d'une manière proche d'une page HTML pour les développeurs.",
+        "imageUrl": "https://media-video.chip.de/f6876ff40f5a74303c2b874c26eeb219bb08a0e6/58c218611fa03a978ef4fa3c3032fdfec7387e2c/POSTER_USER/v0/1603428958107-1_dpdg8rwl.jpeg",
+        "publisher": "John",
+        "content": [
+          {
+            "id": 1,
+            "name": "Guide du bureau (Windows Forms .NET)",
+            "description": "",
+            "chapters": [
+              {
+                "id": 1,
+                "name": "Présentation",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/2.mp4",
+                "text": "Windows Forms est une infrastructure d'interface utilisateur pour la création d'applications de bureau Windows. Il fournit l'une des méthodes les plus productives pour créer des applications de bureau basées sur le concepteur visuel fourni dans Visual Studio. Les fonctionnalités telles que le positionnement en glisser-déplacer des contrôles visuels facilitent la création d'applications de bureau.\n Avec Windows Forms, vous développez des applications graphiquement riches qui sont faciles à déployer, mettre à jour et travailler en mode hors connexion ou connectées à Internet. Les applications Windows Forms peuvent accéder au matériel local et au système de fichiers de l'ordinateur sur lequel l'application est en cours d'exécution.\nPour savoir comment créer une application Windows Forms, consultez Didacticiel : créer une application WinForms.",
+                "videoLength": 300
+              },
+              {
+                "id": 2,
+                "name": "Création d'interfaces utilisateur interactives et enrichies",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/748d3ac9-1a48-43a9-9b02-1f1acab3a3a3.mp4",
+                "text": "Windows Forms est une technologie d'IU pour .NET, un ensemble de bibliothèques managées qui simplifient les tâches d'application courantes telles que la lecture et l'écriture dans le système de fichiers. Quand vous utilisez un environnement de développement comme Visual Studio, vous pouvez créer des applications Smart Client Windows Forms qui affichent des informations, demandent des entrées aux utilisateurs et communiquent avec des ordinateurs distants sur un réseau.\n Dans Windows Forms, un formulaire est une surface visuelle sur laquelle vous présentez des informations à l'utilisateur. Habituellement, vous générez des applications Windows Forms en ajoutant des contrôles à des formulaires et en développant des réponses aux actions de l'utilisateur, telles que des clics de souris ou des pressions sur des touches du clavier. Un contrôle est un élément d'IU discret qui affiche des données ou accepte l'entrée de données.\nQuand un utilisateur modifie un formulaire ou l'un de ses contrôles, l'action génère un événement. Votre application réagit à ces événements avec du code et traite les événements quand ils se produisent.\\nWindows Forms contient divers contrôles que vous pouvez ajouter aux formulaires : des contrôles qui affichent des zones de texte, des boutons, des listes déroulantes, des cases d'option et même des pages web. Si un contrôle existant ne répond pas à vos besoins, Windows Forms prend également en charge la création de vos propres contrôles personnalisés à l'aide de la classe UserControl.\nWindows Forms offre des contrôles d'interface utilisateur enrichis qui émulent les fonctionnalités des applications haut de gamme telles que Microsoft Office. Quand vous utilisez les contrôles ToolStrip et MenuStrip, vous pouvez créer des barres d'outils et des menus qui contiennent du texte et des images, qui affichent des sous-menus et qui hébergent d'autres contrôles tels que des zones de texte et des zones de liste déroulante.\nAvec le Concepteur Windows Forms « glisser-déplacer » dans Visual Studio, vous pouvez créer facilement des applications Windows Forms. Il vous suffit de sélectionner les contrôles avec votre curseur et de les placer à l'emplacement souhaité sur le formulaire. Le concepteur fournit des outils tels que des quadrillages et des lignes d'alignement pour simplifier l'alignement des contrôles. Vous pouvez utiliser les contrôles FlowLayoutPanel, TableLayoutPanelet SplitContainer pour créer des dispositions de formulaire avancées en moins de temps.\nPour finir, si vous devez créer vos propres éléments d'interface utilisateur personnalisés, l'espace de noms System.Drawing contient une large sélection de classes pour afficher des lignes, des cercles et autres formes directement sur un formulaire.",
+                "videoLength": 300
+              },
+              {
+                "id": 3,
+                "name": "Afficher et manipuler des données",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/3.mp4",
+                "text": "De nombreuses applications doivent afficher des données provenant d'une base de données, d'un fichier XML ou JSON, d'un service web XML ou autre source de données. Windows Forms fournit un contrôle flexible, nommé DataGridView, pour afficher ces données tabulaires dans un format classique avec des lignes et des colonnes où chaque élément de données occupe sa propre cellule. Quand vous utilisez DataGridView, vous pouvez personnaliser l'apparence de chaque cellule, verrouiller des lignes et des colonnes arbitraires et afficher des contrôles complexes dans des cellules, entre autres fonctionnalités.\nLa connexion à des sources de données sur un réseau est une tâche simple avec Windows Forms. Le composant BindingSource représente une connexion à une source de données et expose des méthodes pour lier des données à des contrôles, naviguer vers les enregistrements précédents et suivants, modifier les enregistrements et enregistrer les modifications dans la source d'origine. Le contrôle BindingNavigator fournit une interface simple sur le composant BindingSource permettant aux utilisateurs de naviguer parmi les enregistrements.\nVous pouvez facilement créer des contrôles liés aux données à l'aide de la fenêtre Sources de données dans Visual Studio. Cette fenêtre affiche des sources de données telles que les bases de données, les services web et les objets dans votre projet. Pour créer des contrôles liés aux données, vous pouvez faire glisser des éléments depuis cette fenêtre vers des formulaires dans votre projet. Vous pouvez également lier des contrôles existants à des données en faisant glisser des objets depuis la fenêtre Sources de données vers des contrôles existants.\nLes paramètres sont un autre type de liaison de données que vous pouvez gérer dans Windows Forms. La plupart des applications doivent conserver certaines informations sur leur état d'exécution, telles que la dernière taille connue des formulaires, et conserver des données de préférence utilisateur, telles que les emplacements par défaut des fichiers enregistrés. La fonctionnalité Paramètres d'application répond à ces exigences en offrant un mécanisme simple de stockage des deux types de paramètres sur l'ordinateur client. Une fois que vous avez défini ces paramètres à l'aide de Visual Studio ou d'un éditeur de code, les paramètres sont conservés au format XML et lus automatiquement en mémoire au moment de l'exécution.",
+                "videoLength": 300
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Vue d'ensemble de l'utilisation de contrôles (Windows Forms .NET)",
+            "description": "",
+            "chapters": [
+              {
+                "id": 4,
+                "name": "Introduction",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/1.mp4",
+                "text": "Les contrôles Windows Forms sont des composants réutilisables qui encapsulent les fonctionnalités d'interface utilisateur et sont utilisés dans les applications windows côté client. Windows Forms fournit non seulement de nombreux contrôles prêts à l'emploi, mais également l'infrastructure pour le développement de vos propres contrôles. Vous pouvez combiner ou étendre des contrôles existants, ou encore créer vos propres contrôles personnalisés. Pour plus d'informations, consultez Types de contrôles personnalisés.",
+                "videoLength": 0
+              },
+              {
+                "id": 5,
+                "name": "Ajout de contrôles",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/5f5403fa-7e50-4201-b7ee-293701fc77f7.mp4",
+                "text": "Les contrôles sont ajoutés via le Concepteur Visual Studio. Avec le Concepteur, vous pouvez placer, dimensionner, aligner et déplacer des contrôles. Vous pouvez également ajouter des contrôles via du code. Pour plus d'informations, consultez Ajouter un contrôle (Windows Forms).",
+                "videoLength": 0
+              },
+              {
+                "id": 6,
+                "name": "Options de disposition",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/b7f3249a-6916-442b-8bef-28205db7c975.mp4",
+                "text": "La position qu'un contrôle apparaît sur un parent est déterminée par la valeur de la Location propriété par rapport à la partie supérieure gauche de la surface parente. La coordonnée de position supérieure gauche dans le parent est (x0,y0). La taille du contrôle est déterminée par la Size propriété et représente la largeur et la hauteur du contrôle.\nOutre le positionnement manuel et le dimensionnement, différents contrôles de conteneur sont fournis pour faciliter le positionnement automatique des contrôles.\nPour plus d'informations, consultez Position et disposition des contrôles et Comment ancrer et ancrer des contrôles.",
+                "videoLength": 0
+              },
+              {
+                "id": 7,
+                "name": "Événements de contrôle",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/c6819d62-5260-491f-8ccf-56e79e70ac15.mp4",
+                "text": "Les contrôles fournissent plus de 60 événements via la classe Controlde base. Il s'agit notamment de l'événementPaint, qui entraîne le dessin d'un contrôle, des événements liés à l'affichage d'une fenêtre, tels que les événements et Layout les Resize événements de souris et de clavier de bas niveau. Certains événements de bas niveau sont synthétisés en Control événements sémantiques tels que Click et DoubleClick. La plupart des événements partagés se trouvent sous ces catégories :\nÉvénements de souris\\nÉvénements de clavier\\nÉvénements modifiés de propriété\\nAutres événements\\nChaque contrôle ne répond pas à chaque événement. Par exemple, le Label contrôle ne répond pas à l'entrée du clavier et l'événement Control.PreviewKeyDown n'est pas déclenché.\nSouvent, un contrôle est un wrapper pour un contrôle Win32 sous-couche, et l'utilisation de l'événement Paint pour dessiner sur le contrôle peut être limitée ou ne rien faire du tout, car le contrôle est finalement dessiné par Windows.\nPour plus d'informations, consultez Les événements Control et How to handle a control event.",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Position et disposition des contrôles (Windows Forms .NET)",
+            "description": "",
+            "chapters": [
+              {
+                "id": 8,
+                "name": "Position et taille fixes",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/b7f3249a-6916-442b-8bef-28205db7c975.mp4",
+                "text": "La position qu'un contrôle apparaît sur un parent est déterminée par la valeur de la Location propriété par rapport à la partie supérieure gauche de la surface parente. La coordonnée de position supérieure gauche dans le parent est (x0,y0). La taille du contrôle est déterminée par la Size propriété et représente la largeur et la hauteur du contrôle.\nLorsqu'un contrôle est ajouté à un parent qui applique le placement automatique, la position et la taille du contrôle sont modifiées. Dans ce cas, la position et la taille du contrôle peuvent ne pas être ajustées manuellement, en fonction du type de parent.\nLes MaximumSize propriétés et MinimumSize les propriétés permettent de définir l'espace minimal et maximal qu'un contrôle peut utiliser.",
+                "videoLength": 0
+              },
+              {
+                "id": 9,
+                "name": "Margin et Padding",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/9912d957-372f-45fa-83b4-c0c658b4b508.mp4",
+                "text": "Il existe deux propriétés de contrôle qui aident à placer précisément les contrôles : Margin et Padding.\nLa propriété Margin définit l'espace autour du contrôle qui maintient les autres contrôles à une distance spécifiée des bordures du contrôle.\nLa propriété Padding définit l'espace à l'intérieur d'un contrôle qui maintient le contenu du contrôle (par exemple la valeur de sa propriété Text) à une distance spécifiée des bordures du contrôle.\nLa figure suivante montre les propriétés et Padding les Margin propriétés d'un contrôle.\nPadding and Margin properties for Windows Forms Controls\nLe Concepteur Visual Studio respecte ces propriétés lorsque vous positionnez et redimensionnez des contrôles. Les lignes d'alignement apparaissent sous forme de repères pour vous aider à rester en dehors de la marge spécifiée d'un contrôle. ",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Vue d'ensemble du contrôle d'étiquette (Windows Forms .NET)",
+            "description": "",
+            "chapters": [
+              {
+                "id": 10,
+                "name": "Introduction",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/2d1134f6-3243-4aa5-b1c8-a5ca266d9257.mp4",
+                "text": "Les contrôles Windows Forms Label sont utilisés pour afficher du texte qui ne peut pas être modifié par l'utilisateur. Ils sont utilisés pour identifier les objets d'un formulaire et fournir une description de ce qu'un certain contrôle représente ou fait. Par exemple, vous pouvez utiliser des étiquettes pour ajouter des légende descriptives aux zones de texte, aux zones de liste, aux zones de liste déroulante, et ainsi de suite. Vous pouvez également écrire du code qui modifie le texte affiché par une étiquette en réponse aux événements au moment de l'exécution.",
+                "videoLength": 0
+              },
+              {
+                "id": 11,
+                "name": "Utilisation du contrôle Label",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/c6819d62-5260-491f-8ccf-56e79e70ac15.mp4",
+                "text": "Étant donné que le contrôle ne peut pas recevoir le Label focus, il peut être utilisé pour créer des clés d'accès pour d'autres contrôles. Une touche d'accès permet à un utilisateur de concentrer le contrôle suivant dans l'ordre de tabulation en appuyant sur la touche Alt avec la touche d'accès choisie. Pour plus d'informations, consultez Utiliser une étiquette pour concentrer un contrôle.\nLa légende affichée dans l'étiquette est contenue dans la Text propriété. La TextAlign propriété vous permet de définir l'alignement du texte dans l'étiquette. Pour plus d'informations, consultez Guide pratique pour définir le texte affiché par un contrôle Windows Forms.",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Événements de contrôle (Windows Forms .NET)",
+            "description": "",
+            "chapters": [
+              {
+                "id": 12,
+                "name": "Introduction",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/1.mp4",
+                "text": "Les contrôles fournissent des événements déclenchés lorsque l'utilisateur interagit avec le contrôle ou lorsque l'état du contrôle change. Cet article décrit les événements courants partagés par la plupart des contrôles, des événements déclenchés par l'interaction utilisateur et des événements propres à des contrôles spécifiques. Pour plus d'informations sur les événements dans Windows Forms, consultez vue d'ensemble des événements et gestion et déclenchement d'événements.",
+                "videoLength": 0
+              },
+              {
+                "id": 13,
+                "name": "Événements courants",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/06d32b82-fbe0-4c6d-aba9-eb54629c677d.mp4",
+                "text": "Les contrôles fournissent plus de 60 événements via la classe Controlde base. Il s'agit notamment de l'événementPaint, qui entraîne le dessin d'un contrôle, des événements liés à l'affichage d'une fenêtre, tels que les événements et Layout les Resize événements de souris et de clavier de bas niveau. Certains événements de bas niveau sont synthétisés en Control événements sémantiques tels que Click et DoubleClick. La plupart des événements partagés se trouvent sous ces catégories :\nÉvénements de souris\\nÉvénements de clavier\\nÉvénements modifiés de propriété\\nAutres événements",
+                "videoLength": 0
+              },
+              {
+                "id": 14,
+                "name": "Événements de souris",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/c6819d62-5260-491f-8ccf-56e79e70ac15.mp4",
+                "text": "Étant donné que Windows Forms est une technologie d'interface utilisateur, l'entrée de la souris est la principale façon dont les utilisateurs interagissent avec une application Windows Forms. Tous les contrôles fournissent des événements liés à la souris de base :\nMouseClick\\nMouseDoubleClick\\nMouseDown\\nMouseEnter plus d'informations, consultez Utilisation des événements de souris.",
+                "videoLength": 0
+              }
+            ]
+          }
+        ],
+        "exam": {
+          "code": "C001-E1",
+          "name": "Examen WPF",
+          "weight": 100,
+          "questions": [
+            {
+              "id": 1,
+              "questionText": "A. Que veut dire WPF?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "Windows Presentation Foundation",
+                  "weight": 100
+                },
+                {
+                  "answerText": "Windows Platform Foundation",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "questionText": "B.Que veut dire Xaml?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "Extensible Application Markup Language",
+                  "weight": 100
+                },
+                {
+                  "answerText": "Extensible Appliance Markup Language",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "questionText": "C. Comment prendre en charge un lien \"OneWay\" ou \"TwoWay\"?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "En implémentant INotifyPropertyChanged",
+                  "weight": 100
+                },
+                {
+                  "answerText": "En implémentant PropertyChanged",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "questionText": "D. Comment lier les données XML définies dans une ressource \"XmlDataProvider\"?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "En prefixant par @",
+                  "weight": 100
+                },
+                {
+                  "answerText": "En prefixant par #",
+                  "weight": 0
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "code": "C002",
+        "name": "Sauveteur Secouriste du Travail (en entreprise)",
+        "description": "Cette formation SST initiale prépare le sauveteur secouriste du travail à intervenir rapidement et efficacement lors d'une situation d'accident du travail dans l'établissement ou dans la profession. Cette formation permet d'acquérir les connaissances pour apporter les premiers secours et les conduites à tenir en attendant l'arrivée des secours.",
+        "imageUrl": "https://www.sauveteurs-charente.fr/wp-content/uploads/2020/04/logo-sst.png",
+        "publisher": "Elizabeth",
+        "content": [
+          {
+            "id": 1,
+            "name": "Familiarisation, SST qui sommes-nous",
+            "description": "",
+            "chapters": [
+              {
+                "id": 1,
+                "name": "La formation SST DgBoost",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/La_formation_SST_dgboost.mp4",
+                "text": "Qu'est ce que la formation DgBoost SST",
+                "videoLength": 0
+              },
+              {
+                "id": 2,
+                "name": "Le plan d'intervention SST de l'INRS",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comprendre%20le%20plan%20d'intervention%20SST%20de%20l'INRS.mp4",
+                "text": "Comprendre le plan d'intervention SST de l'INRS",
+                "videoLength": 0
+              },
+              {
+                "id": 3,
+                "name": "Alerter les secours",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20alerter%20les%20secours%20-%20formation%20SST.mp4",
+                "text": "Comment alerter les secours - formation SST",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "La Réanimation Cardio-Pulmonaire",
+            "description": "",
+            "chapters": [
+              {
+                "id": 4,
+                "name": "La Réanimation Cardio-Pulmonaire chez le nourrisson (RCP) - formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/La%20R%C3%A9animation%20Cardio-Pulmonaire%20chez%20le%20nourrisson%20(RCP)%20-%20formation%20SST.mp4",
+                "text": "Technique de réanimation chez le nourrisson",
+                "videoLength": 0
+              },
+              {
+                "id": 5,
+                "name": "La Réanimation Cardio-Pulmonaire chez l'enfant (RCP) - formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/La%20R%C3%A9animation%20Cardio-Pulmonaire%20chez%20l'enfant%20(RCP)%20-%20formation%20SST.mp4",
+                "text": "Technique de réanimation chez l'enfant",
+                "videoLength": 0
+              },
+              {
+                "id": 6,
+                "name": "La Réanimation Cardio-Pulmonaire chez l'adulte (RCP) - formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/La%20R%C3%A9animation%20Cardio-Pulmonaire%20chez%20l'adulte%20(RCP)%20-%20formation%20SST.mp4",
+                "text": "Technique de réanimation chez l'enfant",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Comment réagir à un étouffement",
+            "description": "",
+            "chapters": [
+              {
+                "id": 7,
+                "name": "Comment réagir à l'étouffement d'un nourrisson Formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20%C3%A0%20l'%C3%A9touffement%20d'un%20nourrisson%20Formation%20SST.mp4",
+                "text": "Technique de secourisme face à l'étouffement d'un nourrisson Formation SST",
+                "videoLength": 0
+              },
+              {
+                "id": 8,
+                "name": "Comment réagir à un étouffement Formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20%C3%A0%20un%20%C3%A9touffement%20Formation%20SST.mp4",
+                "text": "Technique de secourisme face à un étouffement  Formation SST",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Comment réagir à une plaie ouverte ou un saignement abondant",
+            "description": "",
+            "chapters": [
+              {
+                "id": 9,
+                "name": "Comment réagir à un saignement abondant Formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20%C3%A0%20un%20saignement%20abondant%20Formation%20SST.mp4",
+                "text": "Technique de secourisme face à un saignement abondant",
+                "videoLength": 0
+              },
+              {
+                "id": 10,
+                "name": "Comment réagir face à une plaie ou un membre sectionné formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20face%20%C3%A0%20une%20plaie%20ou%20un%20membre%20sectionn%C3%A9%20formation%20SST.mp4",
+                "text": "Technique de secourisme face à une plaie ou un membre sectionné",
+                "videoLength": 0
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Technique diverse",
+            "description": "",
+            "chapters": [
+              {
+                "id": 11,
+                "name": "Comment réagir à une chute Formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20%C3%A0%20une%20chute%20Formation%20SST.mp4",
+                "text": "Technique comment réagir à une chute Formation SST",
+                "videoLength": 0
+              },
+              {
+                "id": 12,
+                "name": "Comment réagir face à un malaise - Formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20face%20%C3%A0%20un%20malaise%20-%20Formation%20SST.mp4",
+                "text": "Technique comment réagir face à un malaise - Formation SST",
+                "videoLength": 0
+              },
+              {
+                "id": 13,
+                "name": "Comment mettre une victime adulte en position latérale de sécurité.",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20mettre%20une%20victime%20adulte%20en%20position%20lat%C3%A9rale%20de%20s%C3%A9curit%C3%A9..mp4",
+                "text": "Technique comment mettre une victime adulte en position latérale de sécurité.",
+                "videoLength": 0
+              },
+              {
+                "id": 14,
+                "name": "Comment réagir en cas de brûlure Formation SST",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/Comment%20r%C3%A9agir%20en%20cas%20de%20br%C3%BBlure%20Formation%20SST.mp4",
+                "text": "Technique comment réagir en cas de brûlure Formation SST",
+                "videoLength": 0
+              }
+            ]
+          }
+        ],
+        "exam": {
+          "code": "C001-E1",
+          "name": "Examen WPF",
+          "weight": 100,
+          "questions": [
+            {
+              "id": 1,
+              "questionText": "A. Que veut dire WPF?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "Windows Presentation Foundation",
+                  "weight": 100
+                },
+                {
+                  "answerText": "Windows Platform Foundation",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "questionText": "B.Que veut dire Xaml?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "Extensible Application Markup Language",
+                  "weight": 100
+                },
+                {
+                  "answerText": "Extensible Appliance Markup Language",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "questionText": "C. Comment prendre en charge un lien \"OneWay\" ou \"TwoWay\"?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "En implémentant INotifyPropertyChanged",
+                  "weight": 100
+                },
+                {
+                  "answerText": "En implémentant PropertyChanged",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "questionText": "D. Comment lier les données XML définies dans une ressource \"XmlDataProvider\"?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "En prefixant par @",
+                  "weight": 100
+                },
+                {
+                  "answerText": "En prefixant par #",
+                  "weight": 0
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "code": "C003",
+        "name": "ASP.NET Core",
+        "description": "description",
+        "imageUrl": "https://vslive.com/blogs/news-and-tips/2017/03/-/media/ECG/VSLive/Blogs/aspnet_logo.jpg",
+        "publisher": "Elizabeth",
+        "content": [
+          {
+            "id": 1,
+            "name": "Bienvenue, Bienvenue, Bienvenue",
+            "description": "",
+            "chapters": [
+              {
+                "id": 1,
+                "name": "Bienvenue dans le cours de CSS le plus avancé de tous les temps !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/2.mp4",
+                "text": "Dans cette leçon, vous aurez un aperçu de ce que ce cours offre.",
+                "videoLength": 300
+              },
+              {
+                "id": 2,
+                "name": "À REGARDER AVANT DE COMMENCER !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/1.mp4",
+                "text": "Instructions importantes avant de commencer le cours.",
+                "videoLength": 300
+              },
+              {
+                "id": 3,
+                "name": "Configuration de nos outils",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/3.mp4",
+                "text": "Apprenez à configurer les outils nécessaires pour ce cours.",
+                "videoLength": 300
+              }
+            ]
+          }
+        ],
+        "exam": {
+          "code": "C001-E1",
+          "name": "Examen WPF",
+          "weight": 100,
+          "questions": [
+            {
+              "id": 1,
+              "questionText": "A. Que veut dire WPF?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "Windows Presentation Foundation",
+                  "weight": 100
+                },
+                {
+                  "answerText": "Windows Platform Foundation",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "questionText": "B.Que veut dire Xaml?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "Extensible Application Markup Language",
+                  "weight": 100
+                },
+                {
+                  "answerText": "Extensible Appliance Markup Language",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "questionText": "C. Comment prendre en charge un lien \"OneWay\" ou \"TwoWay\"?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "En implémentant INotifyPropertyChanged",
+                  "weight": 100
+                },
+                {
+                  "answerText": "En implémentant PropertyChanged",
+                  "weight": 0
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "questionText": "D. Comment lier les données XML définies dans une ressource \"XmlDataProvider\"?",
+              "weight": 25,
+              "answers": [
+                {
+                  "answerText": "En prefixant par @",
+                  "weight": 100
+                },
+                {
+                  "answerText": "En prefixant par #",
+                  "weight": 0
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "code": "C004",
+        "name": "Winform .NET",
+        "description": "description",
+        "imageUrl": "https://www.tenforums.com/geek/gars/images/2/types/thumb_winforms.png",
+        "publisher": "Simon",
+        "content": [
+          {
+            "id": 1,
+            "name": "Bienvenue, Bienvenue, Bienvenue",
+            "description": "",
+            "chapters": [
+              {
+                "id": 1,
+                "name": "Bienvenue dans le cours de CSS le plus avancé de tous les temps !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/2.mp4",
+                "text": "Dans cette leçon, vous aurez un aperçu de ce que ce cours offre.",
+                "videoLength": 300
+              },
+              {
+                "id": 2,
+                "name": "À REGARDER AVANT DE COMMENCER !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/1.mp4",
+                "text": "Instructions importantes avant de commencer le cours.",
+                "videoLength": 300
+              },
+              {
+                "id": 3,
+                "name": "Configuration de nos outils",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/3.mp4",
+                "text": "Apprenez à configurer les outils nécessaires pour ce cours.",
+                "videoLength": 300
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "code": "C005",
+        "name": "Entity Framework Core",
+        "description": "description",
+        "imageUrl": "https://blog.cdn.cmarix.com/blog/wp-content/uploads/2016/03/Entity-Framework.png",
+        "publisher": "Robert",
+        "content": [
+          {
+            "id": 1,
+            "name": "Bienvenue, Bienvenue, Bienvenue",
+            "description": "",
+            "chapters": [
+              {
+                "id": 1,
+                "name": "Bienvenue dans le cours de CSS le plus avancé de tous les temps !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/2.mp4",
+                "text": "Dans cette leçon, vous aurez un aperçu de ce que ce cours offre.",
+                "videoLength": 300
+              },
+              {
+                "id": 2,
+                "name": "À REGARDER AVANT DE COMMENCER !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/1.mp4",
+                "text": "Instructions importantes avant de commencer le cours.",
+                "videoLength": 300
+              },
+              {
+                "id": 3,
+                "name": "Configuration de nos outils",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/3.mp4",
+                "text": "Apprenez à configurer les outils nécessaires pour ce cours.",
+                "videoLength": 300
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "code": "C006",
+        "name": "Linq",
+        "description": "description",
+        "imageUrl": "https://i0.wp.com/doumer.me/wp-content/uploads/2018/06/Why-LinQ.jpg?resize=427%2C284&ssl=1",
+        "publisher": "Maria",
+        "content": [
+          {
+            "id": 1,
+            "name": "Bienvenue, Bienvenue, Bienvenue",
+            "description": "",
+            "chapters": [
+              {
+                "id": 1,
+                "name": "Bienvenue dans le cours de CSS le plus avancé de tous les temps !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/2.mp4",
+                "text": "Dans cette leçon, vous aurez un aperçu de ce que ce cours offre.",
+                "videoLength": 300
+              },
+              {
+                "id": 2,
+                "name": "À REGARDER AVANT DE COMMENCER !",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/1.mp4",
+                "text": "Instructions importantes avant de commencer le cours.",
+                "videoLength": 300
+              },
+              {
+                "id": 3,
+                "name": "Configuration de nos outils",
+                "videoUrl": "https://team22blob.blob.core.windows.net/team22blobstorage/3.mp4",
+                "text": "Apprenez à configurer les outils nécessaires pour ce cours.",
+                "videoLength": 300
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

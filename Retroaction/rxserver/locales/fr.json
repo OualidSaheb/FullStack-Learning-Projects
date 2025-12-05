@@ -1,0 +1,21 @@
+{
+  "COURSE_CANNOT_DELETE": "Impossible de supprimer le cours.",
+  "CREDENTIALS_NOT_FOUND": "Les informations d'identification n'existent pas",
+  "DATABASE_CONNECTED": "Connecté avec succès à la base {{database}} sur {{cluster}}",
+  "DEPARTMENT_NOT_FOUND": "Le département {{departmentId}} n'existe pas",
+  "EMAIL_DUPLICATE": "L'adresse email {{email}} est déjà utilisée",
+  "GRID_NOT_FOUND": "La grille n'existe pas",
+  "GRID_SECTION_NOT_FOUND": "La section de grille n'existe pas",
+  "GRID_CANNOT_DELETE":"Cannot delete grid. It's associated to evaluation ",
+  "GROUP_NOT_FOUND": "Le groupe {{groupId}} n'existe pas",
+  "PAGE_NOT_FOUND": "La page n'existe pas",
+  "PASSWORD_INVALID": "Mot de passe invalide",
+  "SERVER_STARTED": "Le serveur a démarré sur http://localhost:{{PORT}}",
+  "SESSION_CANNOT_DELETE": "Impossible de supprimer la session.",
+  "TOKEN_CREATE_FAILED": "Impossible de créer le jeton d'authentification",
+  "TOKEN_INVALID": "Le jeton envoyé au serveur n'est pas valide. Déconnectez-vous et tentez de vous connecter",
+  "USER_NOT_AUTHORIZED": "Vous n'êtes pas autorisé à effectuer cette action",
+  "USER_NOT_FOUND": "L'utilisateur {{userId}} n'existe pas",
+  "USER_NOT_FOUND_OR_INVALID_PASSWORD": "L'utilisateur n'existe pas ou le mot de passe est incorrect",
+  "USER_NOT_LOGGED_IN": "Vous n'êtes pas connecté"
+}

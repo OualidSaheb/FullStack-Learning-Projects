@@ -1,0 +1,1451 @@
+[
+  {
+    "_id": "653ff4d14f684968ef936019",
+    "name": "Évaluation de l'ensemble des activités de laboratoire",
+    "sections": [
+      {
+        "name": "Évaluation générale",
+        "criteria": [
+          {
+            "title": "Identification des types de circuits, de leurs fonctions et de leurs caractéristiques",
+            "levels": [
+              {
+                "title": "Identification exacte. S'approprie totalement les concepts de base et le langages technique.",
+                "value": 10,
+                "_id": "653ff4d14f684968ef93601c"
+              },
+              {
+                "title": "Identification correcte des composants. Adopte un langages technique approprié.",
+                "value": 7,
+                "_id": "653ff4d14f684968ef93601d"
+              },
+              {
+                "title": "Éprouve certaines lacunes dans le discernement des concepts de base.",
+                "value": 4,
+                "_id": "653ff4d14f684968ef93601e"
+              },
+              {
+                "title": "Suivi constant. Identification inadéquate des composants et des types de circuits",
+                "value": 0,
+                "_id": "653ff4d14f684968ef93601f"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef93601b",
+            "weight": 10,
+            "id": "653ff4d14f684968ef93601b"
+          },
+          {
+            "title": "Établir les conditions de fonctionnement des circuits",
+            "levels": [
+              {
+                "title": "Toujours adéquat. Très bonne autonomie",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936021"
+              },
+              {
+                "title": "Généralement adéquat. Sans supervision particulière",
+                "value": 7,
+                "_id": "653ff4d14f684968ef936022"
+              },
+              {
+                "title": "Certaines difficultés. Corrections mineures",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936023"
+              },
+              {
+                "title": "Sérieuses difficultés.  Correction constantes",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936024"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936020",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936020"
+          },
+          {
+            "title": "Élaborer des circuits de bases",
+            "levels": [
+              {
+                "title": "Toujours adéquat. Sélection et Désignation exacte des composants. Beaucoup d'autonomie",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936026"
+              },
+              {
+                "title": "Généralement adéquat. Schématisation claire. Relevé correct des données. Sans supervision particulière",
+                "value": 7,
+                "_id": "653ff4d14f684968ef936027"
+              },
+              {
+                "title": "Certaines difficultés. Besoin d'assistance. Corrections mineures",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936028"
+              },
+              {
+                "title": "Sérieuse difficultés. Suivi constant. Corrections constantes.",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936029"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936025",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936025"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d14f684968ef93601a",
+        "id": "653ff4d14f684968ef93601a"
+      }
+    ],
+    "code": 1,
+    "course": "653ff4d14f684968ef93600d",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.522Z",
+    "updatedAt": "2023-10-30T18:24:17.522Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d14f684968ef936019"
+  },
+  {
+    "_id": "653ff4d14f684968ef93602c",
+    "name": "Développement d'un REST API pour une application web de réservation de billets",
+    "sections": [
+      {
+        "name": "Évaluation générale",
+        "criteria": [
+          {
+            "title": "Identification des types de circuits, de leurs fonctions et de leurs caractéristiques",
+            "levels": [
+              {
+                "title": "Identification exacte. S'approprie totalement les concepts de base et le langages technique.",
+                "value": 10,
+                "_id": "653ff4d14f684968ef93602f"
+              },
+              {
+                "title": "Identification correcte des composants. Adopte un langages technique approprié.",
+                "value": 7,
+                "_id": "653ff4d14f684968ef936030"
+              },
+              {
+                "title": "Éprouve certaines lacunes dans le discernement des concepts de base.",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936031"
+              },
+              {
+                "title": "Suivi constant. Identification inadéquate des composants et des types de circuits",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936032"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef93602e",
+            "weight": 10,
+            "id": "653ff4d14f684968ef93602e"
+          },
+          {
+            "title": "Établir les conditions de fonctionnement des circuits",
+            "levels": [
+              {
+                "title": "Toujours adéquat. Très bonne autonomie",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936034"
+              },
+              {
+                "title": "Généralement adéquat. Sans supervision particulière",
+                "value": 7,
+                "_id": "653ff4d14f684968ef936035"
+              },
+              {
+                "title": "Certaines difficultés. Corrections mineures",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936036"
+              },
+              {
+                "title": "Sérieuses difficultés.  Correction constantes",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936037"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936033",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936033"
+          },
+          {
+            "title": "Élaborer des circuits de bases",
+            "levels": [
+              {
+                "title": "Toujours adéquat. Sélection et Désignation exacte des composants. Beaucoup d'autonomie",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936039"
+              },
+              {
+                "title": "Généralement adéquat. Schématisation claire. Relevé correct des données. Sans supervision particulière",
+                "value": 7,
+                "_id": "653ff4d14f684968ef93603a"
+              },
+              {
+                "title": "Certaines difficultés. Besoin d'assistance. Corrections mineures",
+                "value": 4,
+                "_id": "653ff4d14f684968ef93603b"
+              },
+              {
+                "title": "Sérieuse difficultés. Suivi constant. Corrections constantes.",
+                "value": 0,
+                "_id": "653ff4d14f684968ef93603c"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936038",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936038"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d14f684968ef93602d",
+        "id": "653ff4d14f684968ef93602d"
+      }
+    ],
+    "code": 2,
+    "course": "653ff4d14f684968ef93600d",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.731Z",
+    "updatedAt": "2023-10-30T18:24:17.731Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d14f684968ef93602c"
+  },
+  {
+    "_id": "653ff4d14f684968ef93603f",
+    "name": "Conception et mise en place d'un système de paiement en ligne sécurisé",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936042"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "653ff4d14f684968ef936043"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "653ff4d14f684968ef936044"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936045"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "653ff4d14f684968ef936046"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936047"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936041",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936041"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d14f684968ef936040",
+        "id": "653ff4d14f684968ef936040"
+      }
+    ],
+    "course": "653ff4d14f684968ef93600d",
+    "note": "",
+    "state": "active",
+    "code": 3,
+    "createdAt": "2023-10-30T18:24:17.804Z",
+    "updatedAt": "2023-10-30T18:24:17.804Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d14f684968ef93603f"
+  },
+  {
+    "_id": "653ff4d14f684968ef93604a",
+    "name": "Création d'une application web de vente en ligne avec Vue, Pinia et Node.js",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Très bien",
+                "value": 18,
+                "_id": "653ff4d14f684968ef93604e"
+              },
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "653ff4d14f684968ef93604d"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "653ff4d14f684968ef93604f"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936050"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "653ff4d14f684968ef936051"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936052"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef93604c",
+            "weight": 18,
+            "id": "653ff4d14f684968ef93604c"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d14f684968ef93604b",
+        "id": "653ff4d14f684968ef93604b"
+      }
+    ],
+    "course": "653ff4d14f684968ef936010",
+    "note": "",
+    "state": "active",
+    "code": 4,
+    "createdAt": "2023-10-30T18:24:17.858Z",
+    "updatedAt": "2023-11-03T18:15:55.174Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d14f684968ef93604a"
+  },
+  {
+    "_id": "653ff4d14f684968ef936055",
+    "name": "Mise en place d'un système d'authentification et de gestion des utilisateurs pour une application web",
+    "sections": [
+      {
+        "name": "Évaluation générale",
+        "criteria": [
+          {
+            "title": "Identification des types de circuits, de leurs fonctions et de leurs caractéristiques",
+            "levels": [
+              {
+                "title": "Identification exacte. S'approprie totalement les concepts de base et le langages technique.",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936058"
+              },
+              {
+                "title": "Identification correcte des composants. Adopte un langages technique approprié.",
+                "value": 7,
+                "_id": "653ff4d14f684968ef936059"
+              },
+              {
+                "title": "Éprouve certaines lacunes dans le discernement des concepts de base.",
+                "value": 4,
+                "_id": "653ff4d14f684968ef93605a"
+              },
+              {
+                "title": "Suivi constant. Identification inadéquate des composants et des types de circuits",
+                "value": 0,
+                "_id": "653ff4d14f684968ef93605b"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936057",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936057"
+          },
+          {
+            "title": "Établir les conditions de fonctionnement des circuits",
+            "levels": [
+              {
+                "title": "Toujours adéquat. Très bonne autonomie",
+                "value": 10,
+                "_id": "653ff4d14f684968ef93605d"
+              },
+              {
+                "title": "Généralement adéquat. Sans supervision particulière",
+                "value": 7,
+                "_id": "653ff4d14f684968ef93605e"
+              },
+              {
+                "title": "Certaines difficultés. Corrections mineures",
+                "value": 4,
+                "_id": "653ff4d14f684968ef93605f"
+              },
+              {
+                "title": "Sérieuses difficultés.  Correction constantes",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936060"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef93605c",
+            "weight": 10,
+            "id": "653ff4d14f684968ef93605c"
+          },
+          {
+            "title": "Élaborer des circuits de bases",
+            "levels": [
+              {
+                "title": "Toujours adéquat. Sélection et Désignation exacte des composants. Beaucoup d'autonomie",
+                "value": 10,
+                "_id": "653ff4d14f684968ef936062"
+              },
+              {
+                "title": "Généralement adéquat. Schématisation claire. Relevé correct des données. Sans supervision particulière",
+                "value": 7,
+                "_id": "653ff4d14f684968ef936063"
+              },
+              {
+                "title": "Certaines difficultés. Besoin d'assistance. Corrections mineures",
+                "value": 4,
+                "_id": "653ff4d14f684968ef936064"
+              },
+              {
+                "title": "Sérieuse difficultés. Suivi constant. Corrections constantes.",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936065"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef936061",
+            "weight": 10,
+            "id": "653ff4d14f684968ef936061"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d14f684968ef936056",
+        "id": "653ff4d14f684968ef936056"
+      }
+    ],
+    "code": 5,
+    "course": "653ff4d14f684968ef936010",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.916Z",
+    "updatedAt": "2023-10-30T18:24:17.916Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d14f684968ef936055"
+  },
+  {
+    "_id": "653ff4d14f684968ef936068",
+    "name": "Optimisation des performances d'une application web à grande échelle",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "653ff4d14f684968ef93606b"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "653ff4d14f684968ef93606c"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "653ff4d14f684968ef93606d"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "653ff4d14f684968ef93606e"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "653ff4d14f684968ef93606f"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "653ff4d14f684968ef936070"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d14f684968ef93606a",
+            "weight": 10,
+            "id": "653ff4d14f684968ef93606a"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d14f684968ef936069",
+        "id": "653ff4d14f684968ef936069"
+      }
+    ],
+    "course": "653ff4d14f684968ef936010",
+    "note": "",
+    "state": "active",
+    "code": 6,
+    "createdAt": "2023-10-30T18:24:17.982Z",
+    "updatedAt": "2023-11-03T15:38:48.630Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d14f684968ef936068"
+  },
+  {
+    "_id": "653ff4d24f684968ef936073",
+    "name": "Mise en place d'un serveur Web sécurisé avec NGINX",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "653ff4d24f684968ef936076"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "653ff4d24f684968ef936077"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "653ff4d24f684968ef936078"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "653ff4d24f684968ef936079"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "653ff4d24f684968ef93607a"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "653ff4d24f684968ef93607b"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef936075",
+            "weight": 10,
+            "id": "653ff4d24f684968ef936075"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d24f684968ef936074",
+        "id": "653ff4d24f684968ef936074"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 7,
+    "createdAt": "2023-10-30T18:24:18.035Z",
+    "updatedAt": "2023-10-30T18:24:18.035Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d24f684968ef936073"
+  },
+  {
+    "_id": "653ff4d24f684968ef93607e",
+    "name": "Développement d'un site Web dynamique en Vue, Node.js avec MongoDB",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "653ff4d24f684968ef936081"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "653ff4d24f684968ef936082"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "653ff4d24f684968ef936083"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "653ff4d24f684968ef936084"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "653ff4d24f684968ef936085"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "653ff4d24f684968ef936086"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef936080",
+            "weight": 10,
+            "id": "653ff4d24f684968ef936080"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d24f684968ef93607f",
+        "id": "653ff4d24f684968ef93607f"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 8,
+    "createdAt": "2023-10-30T18:24:18.107Z",
+    "updatedAt": "2023-10-30T18:24:18.107Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d24f684968ef93607e"
+  },
+  {
+    "_id": "653ff4d24f684968ef936089",
+    "name": "Configuration et gestion d'un serveur de bases de données MongoDB",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "653ff4d24f684968ef93608c"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "653ff4d24f684968ef93608d"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "653ff4d24f684968ef93608e"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "653ff4d24f684968ef93608f"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "653ff4d24f684968ef936090"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "653ff4d24f684968ef936091"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef93608b",
+            "weight": 10,
+            "id": "653ff4d24f684968ef93608b"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d24f684968ef93608a",
+        "id": "653ff4d24f684968ef93608a"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 9,
+    "createdAt": "2023-10-30T18:24:18.163Z",
+    "updatedAt": "2023-10-30T18:24:18.163Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d24f684968ef936089"
+  },
+  {
+    "_id": "653ff4d24f684968ef936094",
+    "name": "Résolution de problèmes de calcul différentiel appliqués à l'informatique",
+    "sections": [
+      {
+        "name": "Évaluation pratique (A-F)",
+        "criteria": [
+          {
+            "title": "Travail personnel",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef936097"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef936098"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef936099"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef93609a"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef93609b"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef936096",
+            "weight": 4,
+            "id": "653ff4d24f684968ef936096"
+          },
+          {
+            "title": "Travail en équipe",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef93609d"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef93609e"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef93609f"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360a0"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360a1"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef93609c",
+            "weight": 4,
+            "id": "653ff4d24f684968ef93609c"
+          },
+          {
+            "title": "Présentation",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360a3"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360a4"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360a5"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360a6"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360a7"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360a2",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360a2"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d24f684968ef936095",
+        "id": "653ff4d24f684968ef936095"
+      }
+    ],
+    "code": 10,
+    "course": "653ff4d14f684968ef936016",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:18.235Z",
+    "updatedAt": "2023-10-30T18:24:18.235Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d24f684968ef936094"
+  },
+  {
+    "_id": "653ff4d24f684968ef9360aa",
+    "name": "Modélisation mathématique de phénomènes informatiques à l'aide de dérivées partielles",
+    "sections": [
+      {
+        "name": "Évaluation pratique (A-F)",
+        "criteria": [
+          {
+            "title": "Travail personnel",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360ad"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360ae"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360af"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360b0"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360b1"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360ac",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360ac"
+          },
+          {
+            "title": "Travail en équipe",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360b3"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360b4"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360b5"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360b6"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360b7"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360b2",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360b2"
+          },
+          {
+            "title": "Présentation",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360b9"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360ba"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360bb"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360bc"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360bd"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360b8",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360b8"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d24f684968ef9360ab",
+        "id": "653ff4d24f684968ef9360ab"
+      }
+    ],
+    "code": 11,
+    "course": "653ff4d14f684968ef936016",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:18.307Z",
+    "updatedAt": "2023-10-30T18:24:18.307Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d24f684968ef9360aa"
+  },
+  {
+    "_id": "653ff4d24f684968ef9360c0",
+    "name": "Calcul de vecteurs et de matrices pour la résolution de problèmes informatiques",
+    "sections": [
+      {
+        "name": "Évaluation pratique (A-F)",
+        "criteria": [
+          {
+            "title": "Travail personnel",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360c3"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360c4"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360c5"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360c6"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360c7"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360c2",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360c2"
+          },
+          {
+            "title": "Travail en équipe",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360c9"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360ca"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360cb"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360cc"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360cd"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360c8",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360c8"
+          },
+          {
+            "title": "Présentation",
+            "levels": [
+              {
+                "title": "A",
+                "value": 4,
+                "_id": "653ff4d24f684968ef9360cf"
+              },
+              {
+                "title": "B",
+                "value": 3,
+                "_id": "653ff4d24f684968ef9360d0"
+              },
+              {
+                "title": "C",
+                "value": 2,
+                "_id": "653ff4d24f684968ef9360d1"
+              },
+              {
+                "title": "D",
+                "value": 1,
+                "_id": "653ff4d24f684968ef9360d2"
+              },
+              {
+                "title": "F",
+                "value": 0,
+                "_id": "653ff4d24f684968ef9360d3"
+              }
+            ],
+            "note": "",
+            "_id": "653ff4d24f684968ef9360ce",
+            "weight": 4,
+            "id": "653ff4d24f684968ef9360ce"
+          }
+        ],
+        "note": "",
+        "_id": "653ff4d24f684968ef9360c1",
+        "id": "653ff4d24f684968ef9360c1"
+      }
+    ],
+    "code": 12,
+    "course": "653ff4d14f684968ef936016",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:18.408Z",
+    "updatedAt": "2023-10-30T18:24:18.408Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "653ff4d24f684968ef9360c0"
+  },
+  {
+    "_id": "6543b00184e3cf3bf13193d9",
+    "name": "Nouvelle grille",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "6543b00184e3cf3bf13193dc"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "6543b00184e3cf3bf13193dd"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "6543b00184e3cf3bf13193de"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "6543b00184e3cf3bf13193df"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "6543b00184e3cf3bf13193e0"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "6543b00184e3cf3bf13193e1"
+              }
+            ],
+            "note": "",
+            "_id": "6543b00184e3cf3bf13193db",
+            "weight": 10,
+            "id": "6543b00184e3cf3bf13193db"
+          }
+        ],
+        "note": "",
+        "_id": "6543b00184e3cf3bf13193da",
+        "id": "6543b00184e3cf3bf13193da"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 1003,
+    "createdAt": "2023-11-02T14:19:45.097Z",
+    "updatedAt": "2023-11-02T14:19:45.097Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "6543b00184e3cf3bf13193d9"
+  },
+  {
+    "_id": "6545028c8d3ab4144ffb75b0",
+    "name": "Nouvelle grille",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "6545028c8d3ab4144ffb75b3"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "6545028c8d3ab4144ffb75b4"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "6545028c8d3ab4144ffb75b5"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "6545028c8d3ab4144ffb75b6"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "6545028c8d3ab4144ffb75b7"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "6545028c8d3ab4144ffb75b8"
+              }
+            ],
+            "note": "",
+            "_id": "6545028c8d3ab4144ffb75b2",
+            "weight": 10,
+            "id": "6545028c8d3ab4144ffb75b2"
+          }
+        ],
+        "note": "",
+        "_id": "6545028c8d3ab4144ffb75b1",
+        "id": "6545028c8d3ab4144ffb75b1"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 1007,
+    "createdAt": "2023-11-03T14:24:12.506Z",
+    "updatedAt": "2023-11-03T14:24:12.506Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "6545028c8d3ab4144ffb75b0"
+  },
+  {
+    "_id": "65450cd48658c7e2ef51885d",
+    "name": "Nouvelle grille",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "65450cd48658c7e2ef518860"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "65450cd48658c7e2ef518861"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "65450cd48658c7e2ef518862"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "65450cd48658c7e2ef518863"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "65450cd48658c7e2ef518864"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "65450cd48658c7e2ef518865"
+              }
+            ],
+            "note": "",
+            "_id": "65450cd48658c7e2ef51885f",
+            "weight": 10,
+            "id": "65450cd48658c7e2ef51885f"
+          }
+        ],
+        "note": "",
+        "_id": "65450cd48658c7e2ef51885e",
+        "id": "65450cd48658c7e2ef51885e"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 1009,
+    "createdAt": "2023-11-03T15:08:04.513Z",
+    "updatedAt": "2023-11-03T15:08:04.513Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "65450cd48658c7e2ef51885d"
+  },
+  {
+    "_id": "654513476e28506710be97d4",
+    "name": "Nouvelle grille",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "654513476e28506710be97d7"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "654513476e28506710be97d8"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "654513476e28506710be97d9"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "654513476e28506710be97da"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "654513476e28506710be97db"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "654513476e28506710be97dc"
+              }
+            ],
+            "note": "",
+            "_id": "654513476e28506710be97d6",
+            "weight": 10,
+            "id": "654513476e28506710be97d6"
+          }
+        ],
+        "note": "",
+        "_id": "654513476e28506710be97d5",
+        "id": "654513476e28506710be97d5"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 1010,
+    "createdAt": "2023-11-03T15:35:35.151Z",
+    "updatedAt": "2023-11-03T15:35:35.151Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "654513476e28506710be97d4"
+  },
+  {
+    "_id": "654520541ff513d78de82011",
+    "name": "Nouvelle grillee",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "654520541ff513d78de82014"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "654520541ff513d78de82015"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "654520541ff513d78de82016"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "654520541ff513d78de82017"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "654520541ff513d78de82018"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "654520541ff513d78de82019"
+              }
+            ],
+            "note": "",
+            "_id": "654520541ff513d78de82013",
+            "weight": 10,
+            "id": "654520541ff513d78de82013"
+          }
+        ],
+        "note": "",
+        "_id": "654520541ff513d78de82012",
+        "id": "654520541ff513d78de82012"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 1011,
+    "createdAt": "2023-11-03T16:31:16.574Z",
+    "updatedAt": "2023-11-03T16:31:23.583Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "654520541ff513d78de82011"
+  },
+  {
+    "_id": "654537da1ff513d78de8219f",
+    "name": "Nouvelle grilleee",
+    "sections": [
+      {
+        "name": "Section par défaut",
+        "criteria": [
+          {
+            "title": "Nouveau critère d'évaluations",
+            "levels": [
+              {
+                "title": "Parfait",
+                "value": 10,
+                "_id": "654537da1ff513d78de821a2"
+              },
+              {
+                "title": "Très bien",
+                "value": 8,
+                "_id": "654537da1ff513d78de821a3"
+              },
+              {
+                "title": "Bien",
+                "value": 6,
+                "_id": "654537da1ff513d78de821a4"
+              },
+              {
+                "title": "Quelques lacunes",
+                "value": 4,
+                "_id": "654537da1ff513d78de821a5"
+              },
+              {
+                "title": "Beaucoup de lacunes",
+                "value": 2,
+                "_id": "654537da1ff513d78de821a6"
+              },
+              {
+                "title": "Ne fonctionne pas",
+                "value": 0,
+                "_id": "654537da1ff513d78de821a7"
+              }
+            ],
+            "note": "",
+            "_id": "654537da1ff513d78de821a1",
+            "weight": 10,
+            "id": "654537da1ff513d78de821a1"
+          }
+        ],
+        "note": "",
+        "_id": "654537da1ff513d78de821a0",
+        "id": "654537da1ff513d78de821a0"
+      }
+    ],
+    "course": "653ff4d14f684968ef936013",
+    "note": "",
+    "state": "active",
+    "code": 1012,
+    "createdAt": "2023-11-03T18:11:38.763Z",
+    "updatedAt": "2023-11-03T18:12:17.419Z",
+    "__v": 0,
+    "type": "grid",
+    "id": "654537da1ff513d78de8219f"
+  }
+]

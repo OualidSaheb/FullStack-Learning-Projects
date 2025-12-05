@@ -1,0 +1,21 @@
+{
+  "COURSE_CANNOT_DELETE": "Cannot delete course associated in a classroom. Please delete all Classrooms first or archive this course instead.",
+  "CREDENTIALS_NOT_FOUND": "Credentials not found",
+  "DATABASE_CONNECTED": "Database connected to {{database}} on {{cluster}}",
+  "DEPARTMENT_NOT_FOUND": "Department {{departmentId}} not found",
+  "EMAIL_DUPLICATE": "Email {{email}} already exists",
+  "GRID_NOT_FOUND": "Grid not found",
+  "GRID_SECTION_NOT_FOUND": "Grid section not found",
+  "GRID_CANNOT_DELETE":"Cannot delete grid. It's associated to evaluation ",
+  "GROUP_NOT_FOUND": "Group {{groudId}} not found",
+  "PAGE_NOT_FOUND": "Page not found",
+  "PASSWORD_INVALID": "Password invalid",
+  "SERVER_STARTED": "Server started on http://localhost:{{PORT}}",
+  "SESSION_CANNOT_DELETE": "Cannot delete session associated in a classroom. Please delete all Classrooms first or archive this session instead.",
+  "TOKEN_CREATE_FAILED": "Failed to create token",
+  "TOKEN_INVALID": "The token is invalid. Please, disconnect and reconnect again.",
+  "USER_NOT_AUTHORIZED": "User not authorized (forbidden)",
+  "USER_NOT_FOUND": "User {{userId}} not found",
+  "USER_NOT_FOUND_OR_INVALID_PASSWORD": "User not found or invalid password",
+  "USER_NOT_LOGGED_IN": "User not logged in"
+}

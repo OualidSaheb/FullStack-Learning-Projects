@@ -1,0 +1,24 @@
+{
+  "editorconfig": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "printWidth": 140,
+  "jsxSingleQuote": true,
+  "no-empty-function": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "semiColons": true,
+  "multi-line": true,
+  "auto-wrap": false,
+  "wrap-attributes": false,
+  "html.format.wrapAttributes": "force-expand-multiline",
+   
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  }
+}

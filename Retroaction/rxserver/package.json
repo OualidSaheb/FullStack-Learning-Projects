@@ -1,0 +1,53 @@
+{
+  "name": "retroaction",
+  "version": "0.0.2",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.1",
+    "cloudinary": "^1.30.0",
+    "connect-mongo": "^4.5.0",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "i18n": "^0.15.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "serve-static": "^1.15.0",
+    "swagger-ui-express": "^4.6.0",
+    "typescript": "^4.9.3",
+    "uuid": "^8.3.2",
+    "winston": "^3.8.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "chai": "^4.3.7",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "mongodb-memory-server": "^8.11.5",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon app.js",
+    "start": "NODE_ENV=production node app.js",
+    "seed": "cross-env NODE_ENV=development node ./database/seed.js",
+    "test": "mocha --timeout 15000 test/**/**.js"
+  },
+  "author": "The Amazing People of Cégep Shawinigan",
+  "license": "ISC"
+}

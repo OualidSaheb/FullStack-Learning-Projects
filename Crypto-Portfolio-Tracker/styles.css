@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap");
+/* Reset some default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5553ff;
+  color: #fff;
+  height: 180px;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: flex-end;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #000000;
+}
+
+.investment-total {
+  font-size: 28px;
+  font-weight: 900;
+  font-style: italic;
+  color: #5553ff;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+/* btn ajouter coin */
+
+#ajouter-coin-btn,
+button[type="submit"] {
+  background-color: #5553ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#ajouter-coin-btn:hover,
+button[type="submit"]:hover {
+  background-color: #8584ff;
+}
+
+/* la table de la liste de cryptomonnaie */
+
+.coin-table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #5553ff;
+  color: #fff;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/*  */
+#prix-total::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #ff00d4;
+}
+
+#prix-total:hover::after {
+  border-top: 8px solid #ffffff;
+}
+
+/**/
+.action-icons {
+  font-size: 18px;
+  color: #5553ff;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.action-icons:hover {
+  color: #ff00d4;
+}
+.edit-icon {
+  margin-right: 5px;
+}
+
+.delete-icon {
+  margin-left: 5px;
+}
+
+/* formulaire pour ajouter une cryptomonnaie */
+
+.formulaire {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.formulaire-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 30%;
+  box-shadow: rgb(60 66 87 / 76%) 0px 7px 14px 0px;
+  border-radius: 5%;
+}
+
+.formulaire h2 {
+  border-bottom: 2px solid #423ffa;
+  padding-bottom: 5px;
+}
+
+#ajouter-formulaire {
+  width: 90%;
+  margin: 30px auto;
+}
+.fermer {
+  color: #423ffa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fermer:hover {
+  color: #e100ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}

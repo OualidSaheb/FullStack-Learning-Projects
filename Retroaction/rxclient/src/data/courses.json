@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "653ff4d14f684968ef93600d",
+    "department": "653ff4cf4f684968ef935fdf",
+    "code": "13E",
+    "title": "Énergie des Fluides",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.224Z",
+    "updatedAt": "2023-10-30T18:24:17.224Z",
+    "__v": 0,
+    "type": "course",
+    "id": "653ff4d14f684968ef93600d"
+  },
+  {
+    "_id": "653ff4d14f684968ef936010",
+    "department": "653ff4cf4f684968ef935fd9",
+    "code": "2B4",
+    "title": "Développement d'application web transactionnelles avancées",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.334Z",
+    "updatedAt": "2023-10-30T18:24:17.334Z",
+    "__v": 0,
+    "type": "course",
+    "id": "653ff4d14f684968ef936010"
+  },
+  {
+    "_id": "653ff4d14f684968ef936013",
+    "department": "653ff4cf4f684968ef935fd9",
+    "code": "2SU",
+    "title": "Serveur Web I",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.383Z",
+    "updatedAt": "2023-10-30T18:24:17.383Z",
+    "__v": 0,
+    "type": "course",
+    "id": "653ff4d14f684968ef936013"
+  },
+  {
+    "_id": "653ff4d14f684968ef936016",
+    "department": "653ff4cf4f684968ef935fdc",
+    "code": "MTH",
+    "title": "Calcul différentiel",
+    "note": "",
+    "state": "active",
+    "createdAt": "2023-10-30T18:24:17.463Z",
+    "updatedAt": "2023-10-30T18:24:17.463Z",
+    "__v": 0,
+    "type": "course",
+    "id": "653ff4d14f684968ef936016"
+  }
+]

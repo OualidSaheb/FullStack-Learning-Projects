@@ -1,0 +1,465 @@
+{   
+  "organisations": [
+    {
+      "title": "Cégep de Shawinigan",
+      "code": "923030",
+      "domain": "cshawi.ca"
+    }
+  ],
+  "departments": [
+    {
+      "title": "Développement Logiciel",
+      "code": "LEA.BY",
+      "organisation": "923030"
+    },
+    {
+      "title": "Mathématiques",
+      "code": "MAT.BY",
+      "organisation": "923030"
+    },
+    {
+      "title": "Technique de Génie Mécanique",
+      "code": "241-SW",
+      "organisation": "923030"
+    }
+  ],
+  "admins": [
+    {
+      "code": "0000",
+      "firstName": "Almighty",
+      "lastName": "Admin",
+      "isAdmin": true,
+      "organisation": "923030",
+      "local": {
+        "email": "admin@gmail.com",
+        "password": "pass123"
+      }
+    }
+  ],
+  "teachers": [
+    {
+      "code": "0001",
+      "firstName": "Antoine",
+      "lastName": "Deschesnes",
+      "organisation": "923030",
+      "local": {
+        "email": "antoine@gmail.com",
+        "password": "pass123"
+      },
+      "assignments": [{"department": "241-SW", "isCoordinator" : true}]
+    },
+    {
+      "code": "0002",
+      "firstName": "Preachy",
+      "lastName": "Teacher",
+      "organisation": "923030",
+      "local": {
+        "email": "teacher@gmail.com",
+        "password": "pass123"
+      },
+      "assignments": [{"department": "MAT.BY", "isCoordinator" : false}]
+    },
+    {
+      "code": "0003",
+      "firstName": "The",
+      "lastName": "Coordinator",
+      "organisation": "923030",
+      "local": {
+        "email": "coordinator@gmail.com",
+        "password": "pass123"
+      },
+      "assignments": [{"department": "LEA.BY", "isCoordinator" : true}, {"department": "MAT.BY", "isCoordinator" : true}, {"department": "241-SW", "isCoordinator" : true}]
+    }
+  ],
+  "students": [
+    {
+      "organisation": "923030",
+      "code": "0004",
+      "firstName": "Elvis",
+      "lastName": "Gratton",
+      "local": {
+        "email": "student1@gmail.com",
+        "password": "pass123"
+      }
+      
+    },
+    {
+      "organisation": "923030",
+      "code": "0005",
+      "firstName": "Cassandra",
+      "lastName": "Sugar",
+      "local": {
+        "email": "student2@gmail.com",
+        "password": "pass123"
+      }
+      
+    },
+    {
+      "organisation": "923030",
+      "code": "0006",
+      "firstName": "Pabló",
+      "lastName": "Pastel",
+      "local": {
+        "email": "student3@gmail.com",
+        "password": "pass123"
+      }
+    
+    },
+    {
+      "organisation": "923030",
+      "code": "0007",
+      "firstName": "James",
+      "lastName": "Bond",
+      "local": {
+        "email": "student4@gmail.com",
+        "password": "pass123"
+      }
+      
+    },
+    {
+      "organisation": "923030",
+      "code": "0008",
+      "firstName": "Jules",
+      "lastName": "César",
+      "local": {
+        "email": "student5@gmail.com",
+        "password": "pass123"
+      }
+      
+    }
+  ],
+  "groups": [
+    { 
+      "organisation": "923030",
+      "code": "20200", 
+      "students": ["0004", "0005", "0006"] 
+    },
+    { 
+      "organisation": "923030",
+      "code": "01011", 
+      "students": ["0007", "0008"] 
+    }
+  ],
+  "courses": [
+    {
+      "title": "Énergie des Fluides",
+      "code": "13E",
+      "department": "241-SW"
+    },
+    {
+      "title": "Développement d'application web transactionnelles avancées",
+      "code": "2B4",
+      "department": "LEA.BY"
+    },
+    {
+      "title": "Serveur Web I",
+      "code": "2SU",
+      "department": "LEA.BY"
+    },
+    {
+      "title": "Calcul différentiel",
+      "code": "MTH",
+      "department": "MAT.BY"
+    }
+  ],
+  "grids": [
+    {
+      "code": "0001",
+      "course": "13E",
+      "description": "Évaluation de l'ensemble des activités de laboratoire",
+      "section": "Évaluation générale"
+    },
+    {
+      "code": "0002",
+      "course": "13E",
+      "description": "Développement d'un REST API pour une application web de réservation de billets",
+      "section": "Évaluation générale"
+    },
+    {
+      "code": "0003",
+      "course": "13E",
+      "description": "Conception et mise en place d'un système de paiement en ligne sécurisé"
+    },
+    {
+      "code": "0004",
+      "course": "2B4",
+      "description": "Création d'une application web de vente en ligne avec Vue, Pinia et Node.js"
+    },
+    {
+      "code": "0005",
+      "course": "2B4",
+      "description": "Mise en place d'un système d'authentification et de gestion des utilisateurs pour une application web",
+      "section": "Évaluation générale"
+    },
+    {
+      "code": "0006",
+      "course": "2B4",
+      "description": "Optimisation des performances d'une application web à grande échelle"
+    },
+    {
+      "code": "0007",
+      "course": "2SU",
+      "description": "Mise en place d'un serveur Web sécurisé avec NGINX"
+    },
+    {
+      "code": "0008",
+      "course": "2SU",
+      "description": "Développement d'un site Web dynamique en Vue, Node.js avec MongoDB"
+    },
+    {
+      "code": "0009",
+      "course": "2SU",
+      "description": "Configuration et gestion d'un serveur de bases de données MongoDB"
+    },
+    {
+      "code": "0010",
+      "course": "MTH",
+      "description": "Résolution de problèmes de calcul différentiel appliqués à l'informatique",
+      "section": "Évaluation pratique (A-F)"
+    },
+    {
+      "code": "0011",
+      "course": "MTH",
+      "description": "Modélisation mathématique de phénomènes informatiques à l'aide de dérivées partielles",
+      "section": "Évaluation pratique (A-F)"
+    },
+    {
+      "code": "0012",
+      "course": "MTH",
+      "description": "Calcul de vecteurs et de matrices pour la résolution de problèmes informatiques",
+      "section": "Évaluation pratique (A-F)"
+    }
+  ],
+  "sessions": [
+    { 
+      "organisation": "923030",
+      "code": "H23", 
+      "title": "Hiver 2023" 
+    },
+    { 
+      "organisation": "923030",
+      "code": "E23", 
+      "title": "Été 2023" 
+    }
+  ],
+  "classrooms": [
+    {
+      "code": "0001",
+      "session": "E23",
+      "course": "13E",
+      "group": "20200",
+      "teachers": ["0001"]
+    },
+    {
+      "code": "0002",
+      "session": "E23",
+      "course": "2B4",
+      "group": "20200",
+      "teachers": ["0001"]
+    },
+    {
+      "code": "0003",
+      "session": "E23",
+      "course": "MTH",
+      "group": "01011",
+      "teachers": ["0002"]
+    },
+    {
+      "code": "0004",
+      "session": "E23",
+      "course": "2SU",
+      "group": "01011",
+      "teachers": ["0002"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Guide Michelin",
+      "criteria": [
+        {
+          "title": "Critères de sélection",
+          "levels": [
+            {
+              "title": "Parfait",
+              "value": 3
+            },
+            {
+              "title": "Excellent",
+              "value": 2
+            },
+            {
+              "title": "Bon",
+              "value": 1
+            },
+            {
+              "title": "Mauvais",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Évaluation générale",
+      "criteria": [
+        {
+          "title": "Identification des types de circuits, de leurs fonctions et de leurs caractéristiques",
+          "levels": [
+            {
+              "title": "Identification exacte. S'approprie totalement les concepts de base et le langages technique.",
+              "value": 10
+            },
+            {
+              "title": "Identification correcte des composants. Adopte un langages technique approprié.",
+              "value": 7
+            },
+            {
+              "title": "Éprouve certaines lacunes dans le discernement des concepts de base.",
+              "value": 4
+            },
+            {
+              "title": "Suivi constant. Identification inadéquate des composants et des types de circuits",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "title": "Établir les conditions de fonctionnement des circuits",
+          "levels": [
+            {
+              "title": "Toujours adéquat. Très bonne autonomie",
+              "value": 10
+            },
+            {
+              "title": "Généralement adéquat. Sans supervision particulière",
+              "value": 7
+            },
+            {
+              "title": "Certaines difficultés. Corrections mineures",
+              "value": 4
+            },
+            {
+              "title": "Sérieuses difficultés.  Correction constantes",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "title": "Élaborer des circuits de bases",
+          "levels": [
+            {
+              "title": "Toujours adéquat. Sélection et Désignation exacte des composants. Beaucoup d'autonomie",
+              "value": 10
+            },
+            {
+              "title": "Généralement adéquat. Schématisation claire. Relevé correct des données. Sans supervision particulière",
+              "value": 7
+            },
+            {
+              "title": "Certaines difficultés. Besoin d'assistance. Corrections mineures",
+              "value": 4
+            },
+            {
+              "title": "Sérieuse difficultés. Suivi constant. Corrections constantes.",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Évaluation pratique (A-F)",
+      "criteria": [
+        {
+          "title": "Travail personnel",
+          "levels": [
+            {
+              "title": "A",
+              "value": 4
+            },
+            {
+              "title": "B",
+              "value": 3
+            },
+            {
+              "title": "C",
+              "value": 2
+            },
+            {
+              "title": "D",
+              "value": 1
+            },
+            {
+              "title": "F",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "title": "Travail en équipe",
+          "levels": [
+            {
+              "title": "A",
+              "value": 4
+            },
+            {
+              "title": "B",
+              "value": 3
+            },
+            {
+              "title": "C",
+              "value": 2
+            },
+            {
+              "title": "D",
+              "value": 1
+            },
+            {
+              "title": "F",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "title": "Présentation",
+          "levels": [
+            {
+              "title": "A",
+              "value": 4
+            },
+            {
+              "title": "B",
+              "value": 3
+            },
+            {
+              "title": "C",
+              "value": 2
+            },
+            {
+              "title": "D",
+              "value": 1
+            },
+            {
+              "title": "F",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "evaluations": [
+    {
+      "classroom": "0001",
+      "grid": "0001"
+    },
+    {
+      "classroom": "0002",
+      "grid": "0002"
+    },
+    {
+      "classroom": "0003",
+      "grid": "0005"
+    }
+  ]
+}

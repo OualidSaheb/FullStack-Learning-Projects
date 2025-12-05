@@ -1,0 +1,474 @@
+[
+  {
+    "_id": "655795791e60efe76c9e9e10",
+    "code": "1009",
+    "createdAt": "2023-11-17T16:31:53.592Z",
+    "updatedAt": "2023-11-17T16:34:55.367Z",
+    "__v": 1,
+    "type": "evaluation",
+    "id": "655795791e60efe76c9e9e10",
+    "state": "created",
+    "published": false,
+    "title": "Travail pratique #1",
+    "classroom": {
+      "_id": "6552ab3ab7da1809c55e0c6e",
+      "code": "0001",
+      "session": "6552ab37b7da1809c55e0b68",
+      "course": {
+        "_id": "6552ab39b7da1809c55e0ba1",
+        "department": "6552ab37b7da1809c55e0b73",
+        "code": "13E",
+        "title": "Énergie des Fluides",
+        "note": "",
+        "state": "active",
+        "createdAt": "2023-11-13T23:03:21.005Z",
+        "updatedAt": "2023-11-13T23:03:21.005Z",
+        "__v": 0,
+        "type": "course",
+        "id": "6552ab39b7da1809c55e0ba1"
+      },
+      "group": "6552ab38b7da1809c55e0b99",
+      "students": [
+        {
+          "local": {
+            "email": "student1@gmail.com"
+          },
+          "_id": "6552ab38b7da1809c55e0b86",
+          "code": "0004",
+          "note": "",
+          "state": "active",
+          "firstName": "Elvis",
+          "lastName": "Gratton",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "kind": "Student",
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "createdAt": "2023-11-13T23:03:20.243Z",
+          "updatedAt": "2023-11-13T23:03:20.243Z",
+          "__v": 0,
+          "type": "user",
+          "id": "6552ab38b7da1809c55e0b86"
+        },
+        {
+          "local": {
+            "email": "student2@gmail.com"
+          },
+          "_id": "6552ab38b7da1809c55e0b89",
+          "code": "0005",
+          "note": "",
+          "state": "active",
+          "firstName": "Cassandra",
+          "lastName": "Sugar",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "kind": "Student",
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "createdAt": "2023-11-13T23:03:20.355Z",
+          "updatedAt": "2023-11-13T23:03:20.355Z",
+          "__v": 0,
+          "type": "user",
+          "id": "6552ab38b7da1809c55e0b89"
+        },
+        {
+          "local": {
+            "email": "student3@gmail.com"
+          },
+          "_id": "6552ab38b7da1809c55e0b8c",
+          "code": "0006",
+          "note": "",
+          "state": "active",
+          "firstName": "Pabló",
+          "lastName": "Pastel",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "kind": "Student",
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "createdAt": "2023-11-13T23:03:20.466Z",
+          "updatedAt": "2023-11-13T23:03:20.466Z",
+          "__v": 0,
+          "type": "user",
+          "id": "6552ab38b7da1809c55e0b8c"
+        }
+      ],
+      "teachers": [
+        {
+          "local": {
+            "email": "antoine@gmail.com"
+          },
+          "_id": "6552ab37b7da1809c55e0b7a",
+          "code": "0001",
+          "department": "6552ab37b7da1809c55e0b73",
+          "assignments": [
+            {
+              "department": "6552ab37b7da1809c55e0b73",
+              "isCoordinator": true
+            }
+          ],
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "firstName": "Antoine",
+          "lastName": "Deschesnes",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "state": "created",
+          "note": "",
+          "kind": "Teacher",
+          "createdAt": "2023-11-13T23:03:19.788Z",
+          "updatedAt": "2023-11-13T23:03:19.788Z",
+          "__v": 0,
+          "isCoordinator": true,
+          "type": "user",
+          "id": "6552ab37b7da1809c55e0b7a"
+        }
+      ],
+      "note": "",
+      "state": "active",
+      "createdAt": "2023-11-13T23:03:22.050Z",
+      "updatedAt": "2023-11-13T23:03:22.050Z",
+      "__v": 0,
+      "type": "classroom",
+      "id": "6552ab3ab7da1809c55e0c6e"
+    },
+    "grid": {
+      "_id": "655679d62e89ac5ce37751ba",
+      "teacher": "6552ab38b7da1809c55e0b84",
+      "source": null,
+      "title": "Nouvelle grille",
+      "sections": [
+        {
+          "title": "Section par défaut",
+          "criteria": [
+            {
+              "title": "Identification des types de circuits, de leurs fonctions et de leurs caractéristiques",
+              "levels": [
+                {
+                  "title": "Parfait",
+                  "value": 10,
+                  "_id": "655679d62e89ac5ce37751bd"
+                },
+                {
+                  "title": "Très bien",
+                  "value": 8,
+                  "_id": "655679d62e89ac5ce37751be"
+                },
+                {
+                  "title": "Bien",
+                  "value": 6,
+                  "_id": "655679d62e89ac5ce37751bf"
+                },
+                {
+                  "title": "Quelques lacunes",
+                  "value": 4,
+                  "_id": "655679d62e89ac5ce37751c0"
+                },
+                {
+                  "title": "Beaucoup de lacunes",
+                  "value": 2,
+                  "_id": "655679d62e89ac5ce37751c1"
+                },
+                {
+                  "title": "Ne fonctionne pas",
+                  "value": 0,
+                  "_id": "655679d62e89ac5ce37751c2"
+                }
+              ],
+              "note": "",
+              "_id": "655679d62e89ac5ce37751bc",
+              "weight": 10,
+              "id": "655679d62e89ac5ce37751bc"
+            },
+            {
+              "title": "Critère 2",
+              "levels": [
+                {
+                  "title": "Parfait",
+                  "value": 10,
+                  "_id": "655679d62e89ac5ce37751bd"
+                },
+                {
+                  "title": "Très bien",
+                  "value": 8,
+                  "_id": "655679d62e89ac5ce37751be"
+                },
+                {
+                  "title": "Bien",
+                  "value": 6,
+                  "_id": "655679d62e89ac5ce37751bf"
+                },
+                {
+                  "title": "Quelques lacunes",
+                  "value": 4,
+                  "_id": "655679d62e89ac5ce37751c0"
+                },
+                {
+                  "title": "Beaucoup de lacunes",
+                  "value": 2,
+                  "_id": "655679d62e89ac5ce37751c1"
+                },
+                {
+                  "title": "Ne fonctionne pas",
+                  "value": 0,
+                  "_id": "655679d62e89ac5ce37751c2"
+                }
+              ],
+              "note": "",
+              "_id": "655679d62e89ac5ce37751bd",
+              "weight": 10,
+              "id": "655679d62e89ac5ce37751bd"
+            }
+          ],
+          "weight": 20,
+          "note": "",
+          "_id": "655679d62e89ac5ce37751bb",
+          "id": "655679d62e89ac5ce37751bb"
+        },
+        {
+          "title": "Section #2",
+          "criteria": [
+            {
+              "title": "Identification des types de circuits, de leurs fonctions et de leurs caractéristiques",
+              "levels": [
+                {
+                  "title": "Parfait",
+                  "value": 10,
+                  "_id": "655679d62e89ac5ce37751bd"
+                },
+                {
+                  "title": "Très bien",
+                  "value": 8,
+                  "_id": "655679d62e89ac5ce37751be"
+                },
+                {
+                  "title": "Bien",
+                  "value": 6,
+                  "_id": "655679d62e89ac5ce37751bf"
+                },
+                {
+                  "title": "Quelques lacunes",
+                  "value": 4,
+                  "_id": "655679d62e89ac5ce37751c0"
+                },
+                {
+                  "title": "Beaucoup de lacunes",
+                  "value": 2,
+                  "_id": "655679d62e89ac5ce37751c1"
+                },
+                {
+                  "title": "Ne fonctionne pas",
+                  "value": 0,
+                  "_id": "655679d62e89ac5ce37751c2"
+                }
+              ],
+              "note": "",
+              "_id": "655679d62e89ac5ce37751be",
+              "weight": 10,
+              "id": "655679d62e89ac5ce37751be"
+            }
+          ],
+          "weight": 10,
+          "note": "",
+          "_id": "655679d62e89ac5ce37751bb",
+          "id": "655679d62e89ac5ce37751bb"
+        }
+      ],
+      "course": "6552ab39b7da1809c55e0ba1",
+      "note": "",
+      "state": "active",
+      "kind": "UserGrid",
+      "code": 1035,
+      "createdAt": "2023-11-16T20:21:42.637Z",
+      "updatedAt": "2023-11-16T20:21:42.637Z",
+      "__v": 0,
+      "type": "grid",
+      "id": "655679d62e89ac5ce37751ba"
+    },
+    "note": "",
+    "corrections": [
+      {
+        "student": {
+          "local": {
+            "email": "student1@gmail.com"
+          },
+          "_id": "6552ab38b7da1809c55e0b86",
+          "code": "0004",
+          "note": "",
+          "state": "active",
+          "firstName": "Elvis",
+          "lastName": "Gratton",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "kind": "Student",
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "createdAt": "2023-11-13T23:03:20.243Z",
+          "updatedAt": "2023-11-13T23:03:20.243Z",
+          "__v": 0,
+          "type": "user",
+          "id": "6552ab38b7da1809c55e0b86"
+        },
+        "results": [
+          {
+            "criterion": "655679d62e89ac5ce37751bc",
+            "selection": null,
+            "value": 0,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          },
+          {
+            "criterion": "655679d62e89ac5ce37751bd",
+            "selection": null,
+            "value": 4,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          },
+          {
+            "criterion": "655679d62e89ac5ce37751be",
+            "selection": null,
+            "value": 6,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          }
+        ],
+        "preresults": [
+          {
+            "criterion": "655679d62e89ac5ce37751bc",
+            "selection": null,
+            "value": 0,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42c",
+            "messages": []
+          }
+        ],
+        "_id": "6557962faa01cd73e589d42a",
+        "createdAt": "2023-11-17T16:34:55.367Z",
+        "updatedAt": "2023-11-17T16:34:55.367Z",
+        "id": "6557962faa01cd73e589d42a"
+      },
+      {
+        "student": {
+          "local": {
+            "email": "student2@gmail.com"
+          },
+          "_id": "6552ab38b7da1809c55e0b89",
+          "code": "0005",
+          "note": "",
+          "state": "active",
+          "firstName": "Cassandra",
+          "lastName": "Sugar",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "kind": "Student",
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "createdAt": "2023-11-13T23:03:20.355Z",
+          "updatedAt": "2023-11-13T23:03:20.355Z",
+          "__v": 0,
+          "type": "user",
+          "id": "6552ab38b7da1809c55e0b89"
+        },
+        "results": [
+          {
+            "criterion": "655679d62e89ac5ce37751bc",
+            "selection": null,
+            "value": 4,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42e",
+            "messages": []
+          },
+          {
+            "criterion": "655679d62e89ac5ce37751bd",
+            "selection": null,
+            "value": 8,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          },
+          {
+            "criterion": "655679d62e89ac5ce37751be",
+            "selection": null,
+            "value": 2,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          }
+        ],
+        "preresults": [
+          {
+            "criterion": "655679d62e89ac5ce37751bc",
+            "selection": null,
+            "value": 0,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42f",
+            "messages": []
+          }
+        ],
+        "_id": "6557962faa01cd73e589d42d",
+        "createdAt": "2023-11-17T16:34:55.367Z",
+        "updatedAt": "2023-11-17T16:34:55.367Z",
+        "id": "6557962faa01cd73e589d42d"
+      },
+      {
+        "student": {
+          "local": {
+            "email": "student3@gmail.com"
+          },
+          "_id": "6552ab38b7da1809c55e0b8c",
+          "code": "0006",
+          "note": "",
+          "state": "active",
+          "firstName": "Pabló",
+          "lastName": "Pastel",
+          "isAdmin": false,
+          "resetPassToken": "",
+          "kind": "Student",
+          "organisation": "6552ab36b7da1809c55e0b61",
+          "createdAt": "2023-11-13T23:03:20.466Z",
+          "updatedAt": "2023-11-13T23:03:20.466Z",
+          "__v": 0,
+          "type": "user",
+          "id": "6552ab38b7da1809c55e0b8c"
+        },
+        "results": [
+          {
+            "criterion": "655679d62e89ac5ce37751bc",
+            "selection": null,
+            "value": 8,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d431",
+            "messages": []
+          },
+          {
+            "criterion": "655679d62e89ac5ce37751bd",
+            "selection": null,
+            "value": 10,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          },
+          {
+            "criterion": "655679d62e89ac5ce37751be",
+            "selection": null,
+            "value": 10,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d42b",
+            "messages": []
+          }
+        ],
+        "preresults": [
+          {
+            "criterion": "655679d62e89ac5ce37751bc",
+            "selection": null,
+            "value": 0,
+            "state": "active",
+            "_id": "6557962faa01cd73e589d432",
+            "messages": []
+          }
+        ],
+        "_id": "6557962faa01cd73e589d430",
+        "createdAt": "2023-11-17T16:34:55.367Z",
+        "updatedAt": "2023-11-17T16:34:55.367Z",
+        "id": "6557962faa01cd73e589d430"
+      }
+    ]
+  }
+]

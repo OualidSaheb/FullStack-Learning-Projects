@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+:root {
+  --accent-color: #5f27cd;
+  --accent-color-hover: #4c00e4;
+  --primary-color: #341f97dd;
+  --disabled-color: #2e86de;
+  --dark-color: #222f3e;
+  --light-color: #eeeeee;
+  --danger-color: #FC2947;
+  --content-color: #c8d6e5dd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  color: var(--dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#app {
+  max-width: 80%;
+  margin: 30px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: var(--danger-color);
+    font-size: 3em;
+      line-height: 1.1;
+}
+
+h4 {
+  text-align: center;
+}
+
+.dataEntry {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#inputSection {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+#addTaskBtn {
+  padding: 1rem;
+}
+.commandBtn,
+#addTaskBtn {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  padding: 0.5rem;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.commandBtn:hover,
+#addTaskBtn:hover {
+  background-color: var(--danger-color);
+}
+
+
+.dataEntry input[type="text"], .dataEntry textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
+} 
+
+label[for="title"] {
+margin-right: 55px;
+}
+
+label[for="description"] {
+margin-right: 5px;
+}
+
+#title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+#displaySection {
+  margin-top: 2rem;
+  display: flex;
+justify-content: center;
+    width: 100%;
+    word-break: break-all;
+    overflow: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+#tasksTableHeader {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+
+td {
+  border-bottom: 1px solid var(--light-color);
+}
+
+

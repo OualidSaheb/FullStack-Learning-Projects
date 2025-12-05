@@ -1,0 +1,220 @@
+{
+  "cSpell.words": [
+    "Vitesse",
+    "Vite",
+    "unocss",
+    "vitest",
+    "vueuse",
+    "pinia",
+    "demi",
+    "antfu",
+    "iconify",
+    "intlify",
+    "vitejs",
+    "unplugin",
+    "pnpm"
+  ],
+  "prettier.enable": false,
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+},
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": false,
+  "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]",
+      "NOTE",
+      "REVIEW",
+      "TEST",
+      "DEBUG",
+      "ERROR",
+      "CHANGED",
+      "TEMP",
+      "INFO",
+      "DEPRECATED",
+      "OPTIMIZE",
+      "WARNING",
+      "IDEA",
+      "SECURITY",
+      "====",
+      "----",
+      "########",
+      "88888888",
+      
+
+  ],
+  "todo-tree.general.tagGroups": {
+
+  },
+  "todo-tree.highlights.customHighlight": {
+      "TODO": {
+          "gutterIcon": true,
+          "foreground": "#ff0000",
+          "background": "#29ff30",
+          "icon": "check",
+          "type": "tag",
+          "iconColor": "#07e2e6",
+          
+          
+          "borderRadius": "4px",
+      },
+      "FIXME": {
+          "gutterIcon": true,
+          "foreground": "#fcfcfc",
+          "background": "#fa6920",
+          "icon": "alert",
+          "type": "tag",
+          "iconColor": "#fbff00",
+          
+      },
+      "NOTE": {
+          "gutterIcon": true,
+          "foreground": "#fbff00",
+          "background": "#058203",
+          "icon": "comment",
+          "type": "tag",
+          "iconColor": "#07e2e6",
+          "fontWeight": "bold"
+          
+      },
+      "HACK": {
+          "gutterIcon": true,
+          "foreground": "#fcfcfc",
+          "background": "#ff0000",
+          "icon": "bug",
+          "type": "tag",
+          "iconColor": "#ff4800",
+          "rulerColour": "#ffee00",
+          "rulerLane": "full"
+
+      },
+      "XXX": {
+          "foreground": "#fcfcfc",
+          "background": "#ff0000",
+          "icon": "alert",
+          "type": "tag"
+      },
+      "REVIEW": {
+          "foreground": "#fcfcfc",
+          "background": "#fa02c0",
+          "icon": "eye",
+          "type": "tag"
+      },
+      "CHANGED": {
+          "foreground": "#000000",
+          "background": "#51ff00",
+          "icon": "$(edit)",
+          "type": "tag"
+      },
+      "TEMP": {
+          "foreground": "#fcfcfc",
+          "background": "#ff7e29",
+          "icon": "zap",
+          "type": "tag"
+      },
+      "BUG": {
+          "gutterIcon": true,
+          "foreground": "#fcfcfc",
+          "background": "#ff0000",
+          "icon": "bug",
+          "type": "tag",
+          "iconColour": "#ff4800"
+      },
+      "INFO": {
+          "foreground": "#000000",
+          "background": "#fcfcfc",
+          "icon": "info",
+          "type": "text"
+      },
+      "TEST": {
+          "foreground": "#fcfcfc",
+          "background": "#ff7e29",
+          "iconColour": "#ff4800",
+          "icon": "beaker",
+          "type": "tag"
+      },
+      "DEPRECATED": {
+          "foreground": "#fcfcfc",
+          "background": "#6b3400",
+          "icon": "alert",
+          "type": "tag"
+      },
+      "OPTIMIZE": {
+          "foreground": "#000000",
+          "background": "#00ffff",
+          "icon": "zap",
+          "type": "tag"
+      },
+      "WARNING": {
+          "foreground": "#ffee00",
+          "background": "#ff0000",
+          "icon": "alert",
+          "type": "tag"
+      },
+      "IDEA": {
+          "gutterIcon": true,
+          "foreground": "#01e1ff",
+          "background": "#ff00ff",
+          "icon": "light-bulb",
+          "type": "tag",
+          "iconColor": "#01e1ff"
+      },
+      "DEBUG": {
+          "foreground": "#fcfcfc",
+          "background": "#ff00ff",
+          "icon": "bug",
+          "type": "tag",
+          "iconColor": "#ff00ff"
+      },
+      "SECURITY": {
+          "gutterIcon": true,
+          "foreground": "#fcfcfc",
+          "background": "#ff0000",
+          "icon": "lock",
+          "type": "tag",
+          "iconColor": "#ff0000"
+      },
+      "====": {
+          "foreground": "#ff7e29",
+          "background": "#075cfa",
+          "icon": "dash",
+          "type": "whole-line"
+      },
+      "----": {
+          "foreground": "#ff7e29",
+          "background": "#000c75",
+          "icon": "dash",
+          "type": "whole-line"
+      },
+      "########": {
+          "foreground": "#050505",
+          "background": "#3dff33",
+          "icon": "dash",
+          "type": "whole-line"
+      },
+      "88888888": {
+          "foreground": "#29ff30",
+          "background": "#ff0000",
+          "icon": "dash",
+          "type": "whole-line"
+      },
+      "ERROR": {
+          "gutterIcon": true,
+          "foreground": "#fcfcfc",
+          "background": "#ff0000",
+          "icon": "alert",
+          "type": "text",
+          "iconColor": "#ff0000"
+          
+      }
+     
+  }
+}

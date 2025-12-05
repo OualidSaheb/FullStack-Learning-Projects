@@ -1,0 +1,1258 @@
+openapi: 3.0.3
+info:
+  title: RétroAction - OpenAPI 3.0
+  description: |-
+    RétroAction REST API documentation
+  version: 0.0.1
+    
+paths:
+  /:
+    post:
+      summary: Signing up for an account.
+      description: Signing up for an account.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Signed up successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                  user:
+                    $ref: '#/components/schemas/User'
+  /api/auth/signin:
+    post:
+      summary: Signing in an account.
+      description: Signing in an account.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Signed in successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                  user:
+                    $ref: '#/components/schemas/User'
+  /api/Classrooms/create:
+    post:
+      summary: Create a new classroom. (UNCLEAR)
+      description: Create a new classroom. (UNCLEAR)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                groupId:
+                  type: string
+                sessionId:
+                  type: string
+                courseId:
+                  type: string
+                teachersId:
+                  type: string
+                students:
+                  type: string
+                groupCode:
+                  type: string
+      responses:
+        '200':
+          description: Classroomsuccessfully deleted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Class'
+  /api/Classrooms/{id}:
+    get:
+      summary: UNDOCUMENTED
+      description: UNDOCUMENTED
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the Classroomto retrieve.
+      responses:
+        '200':
+          description: Classroomsuccessfully deleted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Class'
+    patch:
+      summary: Update a specific classroom.
+      description: Update a specific classroom.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the Classroomto update.
+      responses:
+        '200':
+          description: Classroomsuccessfully deleted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Class'
+    delete:
+      summary: Delete a specific classroom.
+      description: Delete a specific classroom.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the Classroomto delete.
+      responses:
+        '200':
+          description: Classroomsuccessfully deleted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Class'
+  /api/Classrooms/sessions/{id}:
+    get:
+      summary: Get all Classrooms in a given session.
+      description: Get all Classrooms in a given session.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the session to retrieve.
+      responses:
+        '200':
+          description: An array of Classrooms for the given session.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Class'
+  /api/courses:
+    get:
+      summary: Get all courses depending on the user logged in. 
+      description: Get all courses depending on the user logged in. An admin has access to all departments whereas other type of users only have access to the courses in a given department.
+      responses:
+        '200':
+          description: An array of Courses.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Course'
+    post:
+      summary: Create a new course.
+      description: Create a new course.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Course'
+      responses:
+        '200':
+          description: Course successfully retrieved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Course'
+  /api/courses/{id}:
+    get:
+      summary: Get a specific course by ID.
+      description: Get a specific course by ID.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the course to retrieve.
+      responses:
+        '200':
+          description: Course successfully retrieved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Course'
+    patch:
+      summary: Update a specific course.
+      description: Update a specific course.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the course to retrieve.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Course'
+      responses:
+        '200':
+          description: Course successfully updated.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Course'
+    delete:
+      summary: Delete a specific course.
+      description: Delete a specific course.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the course to retrieve.
+      responses:
+        '200':
+          description: Course successfully updated.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Course'
+  /api/departments:
+    get:
+      summary: Get all departments.
+      description: Get all departments from the database.
+      responses:
+        '200':
+          description: An array of Departments.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Department'
+    post:
+      summary: Create a new department.
+      description: Create a new department.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Department'
+      responses:
+        '200':
+          description: Department successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Department'
+  /api/evaluations:
+    get:
+      summary: Get all evaluations.
+      description: Get all evaluations.
+      responses:
+        '200':
+          description: An array of Evaluations.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Evaluation'
+    post:
+      summary: Create an evaluation.
+      description: Create an evaluation.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                classId:
+                  type: string
+                gridId:
+                  type: string
+      responses:
+        '200':
+          description: Evaluation successfully created.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Evaluation'
+  /api/evaluations/{id}:
+    get:
+      summary: Get populated evaluation. (UNCLEAR)
+      description: Get populated evaluation.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the evaluation to retrieve.
+      responses:
+        '200':
+          description: Evaluation successfully retrieved.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Evaluation'
+    # lock:
+    #   summary: Close an evaluation. (UNCLEAR)
+    #   description: Close an evaluation.
+    #   parameters:
+    #     - in: path
+    #       name: id
+    #       schema:
+    #         type: string
+    #       required: true
+    #       description: ID of the evaluation to close.
+    #   responses:
+    #     '200':
+    #       description: Evaluation successfully locked.
+    #       content:
+    #         application/json:
+    #           schema: 
+    #             type: array
+    #             items:
+    #               $ref: '#/components/schemas/Evaluation'
+    put:
+      summary: Start an evaluation. (UNCLEAR)
+      description: Start an evaluation.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the evaluation to start.
+      responses:
+        '200':
+          description: Evaluation successfully started.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/Evaluation'
+  /api/evaluations/{id}/corrections/{correctionId}/criteria/{criteriaId}:
+    patch:
+      summary: UNDOCUMENTED (UNCLEAR)
+      description: UNDOCUMENTED (UNCLEAR)
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ...
+        - in: path
+          name: correctionId
+          schema:
+            type: string
+          required: true
+          description: ...
+        - in: path
+          name: criteriaId
+          schema:
+            type: string
+          required: true
+          description: ...
+      responses:
+        '200':
+          description: Evaluation successfully updated.
+          content:
+            application/json:
+              schema: 
+                $ref: '#/components/schemas/Evaluation'
+  /api/grids:
+    post:
+      summary: Create a grid for a given course.
+      description: Create a grid for a given course.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                courseId:
+                  type: string
+      responses:
+        '200':
+          description: Grid successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+  /api/grids/user:
+    post:
+      summary: UNDOCUMENTED (UNCLEAR)
+      description: UNDOCUMENTED (UNCLEAR)
+      responses:
+        '200':
+          description: Grid successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+  /api/grids/{id}:
+    get:
+      summary: Get a specific grid using its ID.
+      description: Get a specific grid using its ID.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid to retrieve.
+      responses:
+        '200':
+          description: Grid successfully retrieved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+    patch:
+      summary: Update a specific grid using its ID.
+      description: Update a specific grid using its ID.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid to update.
+      responses:
+        '200':
+          description: Grid successfully updated.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+    delete:
+      summary: Delete a specific grid using its ID.
+      description: Delete a specific grid using its ID.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid to deleted.
+      responses:
+        '200':
+          description: Grid successfully deleted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+  /api/grids/course/{id}:
+    get:
+      summary: Get a grid for a given course.
+      description: Get a grid for a given course.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid to retrieve.
+      responses:
+        '200':
+          description: Grid successfully retrieved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+  /api/grids/{id}/generate:
+    post:
+      summary: Generate a user grid. (UNCLEAR)
+      description: Generate a user grid.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid to generate.
+      responses:
+        '200':
+          description: Grid successfully generated.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+  /api/grids/{id}/sections:
+    post:
+      summary: Create a new section in a specific grid.
+      description: Create a new section in a specific grid.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid to add a new section to.
+      responses:
+        '200':
+          description: Section successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grid'
+  /api/grids/{id}/sections/{sectionId}/criteria:
+    post:
+      summary: UNDOCUMENTED (UNCLEAR)
+      description: UNDOCUMENTED (UNCLEAR)
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid.
+        - in: path
+          name: sectionId
+          schema:
+            type: string
+          required: true
+          description: ID of the section.
+      responses:
+        '200':
+          description: Section successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Criterion'
+  /api/grids/{id}/sections/{sectionId}/criteria/{criterionId}/levels:
+    post:
+      summary: UNDOCUMENTED (UNCLEAR)
+      description: UNDOCUMENTED (UNCLEAR)
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the grid.
+        - in: path
+          name: sectionId
+          schema:
+            type: string
+          required: true
+          description: ID of the section.
+        - in: path
+          name: criterionId
+          schema:
+            type: string
+          required: true
+          description: ID of the criterion.
+      responses:
+        '200':
+          description: Section successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Level'
+  /api/groups:
+    get:
+      summary: Get all groups.
+      description: Get all groups.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Group'
+    post:
+      summary: Create a new group.
+      description: Create a new group.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                code:
+                  type: string
+                students:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/Student'
+      responses:
+        '200':
+          description: Group successful created.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Organisation'
+  /api/groups/{id}:
+    get:
+      summary: Get a populated group. (UNCLEAR)
+      description: Get a populated group. (UNCLEAR)
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the group to retrieve.
+      responses:
+        '200':
+          description: Group successful retrieved.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Group'
+    put:
+      summary: Update a group.
+      description: Update a group.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the group to update.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                session:
+                  $ref: '#/components/schemas/Group'
+      responses:
+        '200':
+          description: Group successful updated.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Group'
+    delete:
+      summary: Delete a group.
+      description: Delete a group.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the group to delete.
+      responses:
+        '200':
+          description: Group successful deleted.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Group'
+  /api/groups/{id}/student/{userId}:
+    post:
+      summary: Add a student to a group.
+      description: Add a student to a group.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the group for a student.
+        - in: path
+          name: userId
+          schema:
+            type: string
+          required: true
+          description: ID of the student to add.
+      responses:
+        '200':
+          description: Student successfully added to the group.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/User'
+    delete:
+      summary: Delete a student from a group.
+      description: Delete a student from a group.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the group for a student.
+        - in: path
+          name: userId
+          schema:
+            type: string
+          required: true
+          description: ID of the student to delete.
+      responses:
+        '200':
+          description: Student successfully deleted from the group.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/User'
+  /api/organisations:
+    get:
+      summary: Get all organisations.
+      description: Get all organisations.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Organisation'
+    post:
+      summary: Create a new organisation.
+      description: Create a new organisation.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                session:
+                  $ref: '#/components/schemas/Organisation'
+      responses:
+        '200':
+          description: organisation successful created.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Organisation'
+  /api/sessions:
+    get:
+      summary: Get the current session.
+      description: Get the current session.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Session'
+  /api/sessions/create:
+    get:
+      summary: Create a new session.
+      description: Create a new session.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Session'
+  /api/sessions/session/{name}:
+    get:
+      summary: Get session by name.
+      description: Get session by name.
+      parameters:
+        - in: path
+          name: name
+          schema:
+            type: string
+          required: true
+          description: Name of the session to retrieve.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Session'
+  /api/sessions/session/{name}/class:
+    get:
+      summary: UNDOCUMENTED
+      description: UNDOCUMENTED
+      deprecated: true
+      parameters:
+        - in: path
+          name: name
+          schema:
+            type: string
+          required: true
+          description: Name of the session.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Session'
+  /api/sessions/session/{id}:
+    put:
+      summary: Find and update a specific session.
+      description: Find and update a specific session.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the session to update.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                session:
+                  $ref: '#/components/schemas/Session'
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Session'
+    delete:
+      summary: Delete a session.
+      description: Delete a session.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the session to delete.
+      responses:
+        '200':
+          description: Request successful.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  session:
+                    $ref: '#/components/schemas/Session'
+  /api/users:
+    get:
+      summary: Get current user.
+      description: Get the current user logged in.
+      responses:
+        '200':
+          description: A user.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+    post:
+      summary: Redirecting to the signup page.
+      description: Redirecting to the signup page. See [Signup](#/) endpoint.
+      responses:
+        302:
+          description: Redirect to signup page
+          headers:
+            Location:
+              description: /signup
+              schema:
+                type: string
+  /api/users/users:
+    get:
+      summary: Get all users.
+      description: Get all users from the database.
+      responses:
+        '200':
+          description: An array of Users.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+  /api/users/addTeacher:
+    put:
+      summary: Add a teacher.
+      description: Add a teacher to the database.
+      responses:
+        '200':
+          description: An array of Users.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+  /api/users/addStudents:
+    put:
+      summary: Add a student. (UNCLEAR, MAY BE MULTIPLE STUDENTS)
+      description: Add a student to the database. (UNCLEAR, MAY BE MULTIPLE STUDENTS)
+      responses:
+        '200':
+          description: An array of Users.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+  /api/users/avatar:
+    post:
+      summary: Upload an avatar.
+      description: Upload an avatar for the current user.
+      requestBody:
+        required: true
+        content:
+          application/octet-stream:
+            schema:
+              type: string
+              format: binary
+      responses:
+        '200':
+          description: The avatar has been successfully uploaded.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                  user:
+                    $ref: '#/components/schemas/User'
+  /api/users/updatePassword:
+    post:
+      summary: Update the current user password.
+      description: Update the current user password.
+      requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  newPassword:
+                    type: string
+                  password:
+                    type: string
+      responses:
+        '200':
+          description: Password has been successfully changed.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                  user:
+                    $ref: '#/components/schemas/User'
+  /api/users/department:
+      patch:
+        summary: Set the current user's department.
+        description: Set the current user's department.
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  departmentId:
+                    type: string
+        responses:
+          '200':
+            description: The department has been successfully changed.
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    token:
+                      type: string
+                    user:
+                      $ref: '#/components/schemas/User'
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+          example: 'user@domain.com'
+        password:
+          type: string
+        isAdmin:
+          type: boolean
+          example: false
+      required:
+        - firstName
+        - lastName
+        - email
+        - isAdmin
+    Student:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/User'
+        - properties:
+            code:
+              type: string
+      required:
+        - code
+    Group:
+      type: object
+      properties:
+        _id:
+          type: string
+        code:
+          type: string
+        students:
+          type: array
+          items:
+            $ref: '#/components/schemas/Student'
+          description: The students in the group
+      required:
+        - code
+    Teacher:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/User'
+        - properties:
+            code:
+              type: string
+            isCoordinator:
+              type: boolean
+      required:
+        - code
+        - isCoordinator
+    Department:
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+        code:
+          type: string
+        organisation:
+          $ref: '#/components/schemas/Organisation'
+      required:
+        - code
+        - name
+        - organisation
+    Organisation:
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+        code:
+          type: string
+      required:
+        - code
+        - name
+    Course:
+      properties:
+        _id:
+          type: string
+        code:
+          type: string
+          minLength: 3
+          maxLength: 3
+        title:
+          type: string
+        department:
+          $ref: '#/components/schemas/Department'
+      required:
+        - code
+        - department
+    Session:
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+        code:
+          type: string
+        activeOn:
+          type: string
+        endsOn:
+          type: string
+      required:
+        - code
+        - name
+        - activeOn
+        - endsOn
+    Class:
+      properties:
+        _id:
+          type: string
+        code:
+          type: string
+        session:
+          $ref: '#/components/schemas/Session'
+        course:
+          $ref: '#/components/schemas/Course'
+        groupeCode:
+          type: string
+        students:
+          type: array
+          items:
+            $ref: '#/components/schemas/Student'
+        teachers:
+          type: array
+          items:
+            $ref: '#/components/schemas/Teacher'
+      required:
+        - code
+        - session
+        - course
+    Grid:
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+        course:
+          $ref: '#/components/schemas/Course'
+        sections:
+          type: array
+          items:
+            $ref: '#/components/schemas/Section'
+      required:
+        - name
+        - course
+    Section:
+      properties:
+        name:
+          type: string
+      required:
+        - name
+    Criterion:
+      properties:
+        title:
+          type: string
+        levels:
+          type: array
+          items:
+            $ref: '#/components/schemas/Level'
+      required:
+        - title
+    Level:
+      properties:
+        title:
+          type: string
+        value:
+          type: number
+      required:
+        - title
+        - value
+    Evaluation:
+      properties:
+        code:
+          type: string
+        class:
+          $ref: '#/components/schemas/Class'
+        grid:
+          $ref: '#/components/schemas/Grid'
+        corrections:
+          type: array
+          items:
+            $ref: '#/components/schemas/Correction'
+    Correction:
+      properties:
+        student:
+          $ref: '#/components/schemas/Student'
+        precision:
+          type: string
+    Result:
+      properties:
+        criterion:
+          $ref: '#/components/schemas/Criterion'
+        selection:
+          $ref: '#/components/schemas/Level'
+        precision:
+          type: string
+        value:
+          type: number
+      required:
+        - value
+        - criterion

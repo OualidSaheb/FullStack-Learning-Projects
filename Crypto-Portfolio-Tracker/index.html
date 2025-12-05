@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste de crypto-monnaies</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+  
+        <div class="logo">Liste de crypto-monnaies</div>
+        <p>Suivi voter investissements en crypto-monnaie</p>
+      </header>
+<!--  -->
+      <div class="dashboard">
+        <div class="left-side">
+          <h2>Investment Total:</h2>
+          <p class="investment-total">$0</p>
+        </div>
+
+        <div class="right-side">
+          <button id="ajouter-coin-btn">Ajouter une cryptomonnaie</button>
+        </div>
+      </div>
+
+      <div class="coin-table">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Logo</th>
+              <th>Nom</th>
+              <th>Catégorie</th>
+              <th>Prix d'achat ($)</th>
+              <th>Date d'achat</th>
+              <th data-sort="asc" id="prix-total">Montant Total ($)</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="coin-table-body"></tbody>
+        </table>
+      </div>
+
+      <div id="formulaire-container" class="formulaire">
+        <div class="formulaire-content">
+          <span class="fermer">&times;</span>
+          <h2>Ajouter une cryptomonnaie</h2>
+          <form id="ajouter-formulaire">
+            <label for="logo-url">Logo URL:</label>
+            <input type="url" id="logo-url" name="logo-url" required />
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required />
+
+            <label for="categorie">Catégorie:</label>
+            <select id="categorie" name="categorie">
+              <option value="Layer1">Layer 1</option>
+              <option value="DeFi">DeFi</option>
+              <option value="CEX">Centralized Exchange (CEX)</option>
+              <option value="Meme">Meme</option>
+              <option value="Privacy">Privacy</option>
+              <option value="Autre">Autre</option>
+            </select>
+            <label for="prix-achat">Prix d'achat ($):</label>
+            <input
+              type="number"
+              id="prix-achat"
+              name="prix-achat"
+              step="0.00000001"
+              required
+            />
+            <label for="date-achat">Date d'achat:</label>
+            <input type="date" id="date-achat" name="date-achat" required />
+            <label for="montant-total">Montant Total ($):</label>
+            <input
+              type="number"
+              id="montant-total"
+              name="montant-total"
+              step="0.00000001"
+              required
+            />
+            <button type="submit">Ajouter</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
