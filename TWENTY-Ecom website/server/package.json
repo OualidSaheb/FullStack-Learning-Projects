@@ -1,0 +1,28 @@
+{
+  "name": "Dawta-Authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^4.5.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^5.13.15",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "migrate": "node ./data/migrator.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.0"
+  }
+}
