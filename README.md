@@ -34,7 +34,7 @@ Each project below includes a description, screenshot placeholder, and link.
 A simple portfolio tracker where users can add crypto assets, edit them, delete them, and calculate the total value.  
 
 📸 **Screenshot:**  
-![Crypto Portfolio](./dd.jpg)
+![Crypto Portfolio](./tracker.jpg)
 
 🔗 **Project Link:**   [Here](https://github.com/OualidSaheb/School-Projects/tree/main/Crypto-Portfolio-Tracker)
 ---
@@ -50,7 +50,7 @@ A simple portfolio tracker where users can add crypto assets, edit them, delete 
 A small project that manages tasks—add, delete, complete—built to practice TypeScript basics.  
 
 📸 **Screenshot:**  
-![Task Manager](./screenshots/taskmanager.png)
+![Task Manager](./screenshots/task%20manger.jpg)
 
 🔗 **Project Link:**  [Here](https://github.com/OualidSaheb/School-Projects/tree/main/Super-Duper-Task-Manager)
 ---
@@ -68,7 +68,7 @@ A small project that manages tasks—add, delete, complete—built to practice T
 A full-stack e-commerce platform with authentication, product management, and dynamic UI using Vue + Pinia. Backend built with Express/MongoDB.  
 
 📸 **Screenshot:**  
-![TWENTY Ecommerce](./screenshots/twenty.png)
+![TWENTY Ecommerce](./screenshots/ecom.png)
 
 🔗 **Project Link:**  [Here](https://github.com/OualidSaheb/School-Projects/tree/main/TWENTY-Ecom%20website)
 
