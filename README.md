@@ -1,6 +1,6 @@
-# 🎓 Full Stack Learning Projects
+# 🎓 Full Stack Projects
 
-Welcome to my **FullStack-Learning-Projects**!  
+Welcome to my **FullStack-Projects**!  
 This repository groups all my academic, training, and internship projects completed using:
 
 <!-- TECHNOLOGIES -->
